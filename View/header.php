@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Travelin - Travel Tour Booking HTML Templates</title>
 
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="view/images/favicon.png">
 
     <link href="view/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
@@ -16,8 +16,9 @@
 
     <link href="view/css/plugin.css" rel="stylesheet" type="text/css">
 
-    <link rel="stylesheet" href="../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet"
+        href="view/../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="view/../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="view/fonts/line-icons.css" type="text/css">
 </head>
 
@@ -58,7 +59,7 @@
 
                         <div class="navbar-header">
                             <a class="navbar-brand" href="index.html">
-                                <img src="images/logo.png" alt="image">
+                                <img src="view/images/logo.png" alt="image">
                             </a>
                         </div>
 
