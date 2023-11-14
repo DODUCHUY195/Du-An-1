@@ -66,7 +66,7 @@
                         <div class="navbar-collapse1 d-flex align-items-center" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav" id="responsive-menu">
                                 <li class="dropdown submenu active">
-                                    <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    <a href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                         aria-haspopup="true" aria-expanded="false">Home <i class="icon-arrow-down"
                                             aria-hidden="true"></i></a>
                                     <ul class="dropdown-menu">
@@ -114,14 +114,14 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="index.php?ab=about">About Us</a></li>
                                 <li class="submenu dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                         aria-haspopup="true" aria-expanded="false">Destinations <i
                                             class="icon-arrow-down" aria-hidden="true"></i></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="destination-list.html">Destination List</a></li>
-                                        <li><a href="destination-detail.html">Destination Detail</a></li>
+                                        <li><a href="index.php?dt=detail">Destination Detail</a></li>
                                     </ul>
                                 </li>
                                 <li class="submenu dropdown">
@@ -200,7 +200,7 @@
                                         <li><a href="comingsoon.html">Coming Soon</a></li>
                                         <li><a href="testimonials.html">Testimonials</a></li>
                                         <li><a href="faq.html">Faq</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
+                                        <li><a href="index.php?ct=contact">Contact Us</a></li>
                                         <li><a href="dashboard/dashboard.html">Dashboard</a></li>
                                     </ul>
                                 </li>

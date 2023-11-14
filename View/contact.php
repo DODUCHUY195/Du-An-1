@@ -1,5 +1,6 @@
-<section class="breadcrumb-main pb-20 pt-14" style="background-image: url(images/bg/bg1.jpg);">
-    <div class="section-shape section-shape1 top-inherit bottom-0" style="background-image: url(images/shape8.png);">
+<section class="breadcrumb-main pb-20 pt-14" style="background-image: url(view/images/bg/bg1.jpg);">
+    <div class="section-shape section-shape1 top-inherit bottom-0"
+        style="background-image: url(view/images/shape8.png);">
     </div>
     <div class="breadcrumb-outer">
         <div class="container">
