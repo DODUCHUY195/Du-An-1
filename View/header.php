@@ -71,7 +71,7 @@
                                             aria-hidden="true"></i></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="index.html">Homepage Default</a></li>
-                                        <li><a href="index-1.html">Homepage 1</a></li>
+                                        <li><a href="index.php?srch=search">Homepage 1</a></li>
                                         <li><a href="index-2.html">Homepage 2</a></li>
                                         <li><a href="index-3.html">Homepage 3</a></li>
                                         <li><a href="index-4.html">Homepage 4</a></li>

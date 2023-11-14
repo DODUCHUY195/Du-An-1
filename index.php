@@ -30,6 +30,16 @@ if(isset($_GET ["ct"])){
             include "view/home.php";
             break;
     }
+}if(isset($_GET ["srch"])){
+    $srch = $_GET["srch"];
+    switch ($srch) {
+        case 'search':
+            include "view/search.php";
+            break;
+        default:
+            include "view/home.php";
+            break;
+    }
 }else{
     include "view/home.php";
 }
