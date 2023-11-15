@@ -1,0 +1,34 @@
+.dropdown-toggle{
+    margin: 30px;
+}
+
+.anh{
+    margin-left: 70px;
+    width: 100px;
+}
+
+
+.form-main{
+    width: 100%;
+    padding-top: 350px;
+    padding-bottom: 200px;
+}
+
+.banner{
+    width: 100%;
+    height: 550px;
+    margin-top: 100px;
+}
+
+
+
+header{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-image: url(bannerheader1.jpg);
+}
+
+body{
+    background-color: azure;
+}
+

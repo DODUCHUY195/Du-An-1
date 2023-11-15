@@ -1,39 +1,7 @@
-<section class="banner overflow-hidden">
-    <div class="slider top50">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="slide-inner">
-                        <div class="slide-image" style="background-image:url(View/images/slider/1.jpg)"></div>
-
-                        <div class="dot-overlay"></div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="slide-inner">
-                        <div class="slide-image" style="background-image:url(View/images/slider/2.jpg)"></div>
-
-                        <div class="dot-overlay"></div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="slide-inner">
-                        <div class="slide-image" style="background-image:url(View/images/slider/3.jpg)"></div>
-
-                        <div class="dot-overlay"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-</section>
-
-
 <div class="form-main">
-    <div class="section-shape top-0" style="background-image: url(view/images/shape-pat.png);"></div>
+    <div class="section-shape">
+        <img class="banner" src="View/images/banner.jpg" alt="">
+    </div>
     <div class="container">
         <div class="row align-items-center form-content rounded position-relative ms-5 me-5">
             <div class="col-lg-2 p-0">
