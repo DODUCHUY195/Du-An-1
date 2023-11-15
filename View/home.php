@@ -1,202 +1,89 @@
-<div class="tet"></div>
+<section class="banner overflow-hidden">
+    <div class="slider top50">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide-inner">
+                        <div class="slide-image" style="background-image:url(View/images/slider/1.jpg)"></div>
 
-<section class="banner pt-10 pb-0 overflow-hidden" style="background-image:url(view/images/testimonial.png);">
-    <div class="container">
-        <div class="banner-in">
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4">
-                    <div class="banner-content text-lg-start text-center">
-                        <h4 class="theme mb-0">Explore The World</h4>
-                        <h1>Start Planning Your Dream Trip Today!</h1>
-                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore</p>
-                        <div class="book-form">
-                            <div class="row d-flex align-items-center justify-content-between">
-                                <div class="col-lg-6 mb-2">
-                                    <div class="form-group">
-                                        <div class="input-box">
-                                            <select class="niceSelect">
-                                                <option value="1">Destination</option>
-                                                <option value="2">Argentina</option>
-                                                <option value="3">Belgium</option>
-                                                <option value="4">Canada</option>
-                                                <option value="5">Denmark</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 mb-2">
-                                    <div class="form-group">
-                                        <div class="input-box">
-                                            <input type="date" name="date">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 mb-2">
-                                    <div class="form-group">
-                                        <div class="input-box">
-                                            <select class="niceSelect">
-                                                <option value="1">Travel Type</option>
-                                                <option value="2">City Tour</option>
-                                                <option value="3">Family Tour</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 mb-2">
-                                    <div class="form-group">
-                                        <div class="input-box">
-                                            <select class="niceSelect">
-                                                <option value="1">Tour Duration</option>
-                                                <option value="2">5 days</option>
-                                                <option value="3">7 Days</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-group mb-0 text-center">
-                                        <a href="#" class="nir-btn w-100"><i class="fa fa-search mr-2"></i> Search
-                                            Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="dot-overlay"></div>
                     </div>
                 </div>
-                <div class="col-lg-6 mb-4">
-                    <div class="banner-image">
-                        <img src="view/view/images/travel.png" alt>
+                <div class="swiper-slide">
+                    <div class="slide-inner">
+                        <div class="slide-image" style="background-image:url(View/images/slider/2.jpg)"></div>
+
+                        <div class="dot-overlay"></div>
                     </div>
                 </div>
-            </div>
-            <div class="category-main-inner border-t pt-1">
-                <div class="row side-slider">
-                    <div class="col-lg-3 col-md-6 my-4">
-                        <div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
-                            <div class="trending-topic-content">
-                                <img src="view/images/icons/004-camping-tent.png" class="mb-1 d-inline-block" alt>
-                                <h4 class="mb-0"><a href="tour-grid.html">Camping</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 my-4">
-                        <div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
-                            <div class="trending-topic-content text-center">
-                                <view /img src="view/images/icons/003-hiking.png" class="mb-1 d-inline-block" alt>
-                                    <h4 class="mb-0"><a href="tour-grid.html">Hiking</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 my-4">
-                        <div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
-                            <div class="trending-topic-content">
-                                <vimg src="view/images/icons/005-sunbed.png" class="mb-1 d-inline-block" alt>
-                                    <h4 class="mb-0"><a href="tour-grid.html">Beach Tours</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 my-4">
-                        <div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
-                            <div class="trending-topic-content">
-                                <img src="view/view/images/icons/006-surf.png" class="mb-1 d-inline-block" alt>
-                                <h4 class="mb-0"><a href="tour-grid.html">Surfing</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 my-4">
-                        <div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
-                            <div class="trending-topic-content">
-                                <img src="view/images/icons/002-safari.png" class="mb-1 d-inline-block" alt>
-                                <h4 class="mb-0"><a href="tour-grid.html">Safari</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 my-4">
-                        <div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
-                            <div class="trending-topic-content">
-                                <img src="view/images/icons/008-cycling.png" class="mb-1 d-inline-block" alt>
-                                <h4 class="mb-0"><a href="tour-grid.html">Cycling</a></h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 my-4">
-                        <div class="category-item box-shadow p-3 py-4 text-center bg-white rounded overflow-hidden">
-                            <img src="view/images/icons/007-hiking-1.png" class="mb-1 d-inline-block" alt>
-                            <div class="trending-topic-content">
-                                <h4 class="mb-0"><a href="tour-grid.html">Trekings</a></h4>
-                            </div>
-                        </div>
+                <div class="swiper-slide">
+                    <div class="slide-inner">
+                        <div class="slide-image" style="background-image:url(View/images/slider/3.jpg)"></div>
+
+                        <div class="dot-overlay"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
 </section>
 
-<section class="about-us pb-6 pt-6" style="background-image:url(view/images/shape4.png); background-position:center;">
-    <div class="container">
-        <div class="section-title mb-6 w-50 mx-auto text-center">
-            <h4 class="mb-1 theme1">3 Step of The Perfect Tour</h4>
-            <h2 class="mb-1">Find <span class="theme">Travel Perfection</span></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
-            </p>
-        </div>
 
-        <div class="why-us">
-            <div class="why-us-box">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
-                        <div class="why-us-item text-center p-4 py-5 border rounded bg-white">
-                            <div class="why-us-content">
-                                <div class="why-us-icon">
-                                    <i class="icon-flag theme"></i>
-                                </div>
-                                <h4><a href="about.html">Tell Us What You want To Do</a></h4>
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
-                            </div>
+<div class="form-main">
+    <div class="section-shape top-0" style="background-image: url(view/images/shape-pat.png);"></div>
+    <div class="container">
+        <div class="row align-items-center form-content rounded position-relative ms-5 me-5">
+            <div class="col-lg-2 p-0">
+                <h4
+                    class="form-title form-title1 text-center p-4 py-5 white bg-theme mb-0 rounded-start d-lg-flex align-items-center">
+                    <i class="icon-location-pin fs-1 me-1"></i> Find
+                </h4>
+            </div>
+            <div class="col-lg-10 px-4">
+                <div class="form-content-in d-lg-flex align-items-center">
+                    <div class="form-group me-2">
+                        <div class="input-box">
+                            <select class="niceSelect">
+                                <option value="1">Destination</option>
+                                <option value="2">Argentina</option>
+                                <option value="3">Belgium</option>
+                                <option value="4">Canada</option>
+                                <option value="5">Denmark</option>
+                            </select>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
-                        <div class="why-us-item text-center p-4 py-5 border rounded bg-white">
-                            <div class="why-us-content">
-                                <div class="why-us-icon">
-                                    <i class="icon-location-pin theme"></i>
-                                </div>
-                                <h4><a href="about.html">Share Your Travel Locations</a></h4>
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
-                            </div>
+
+                    <div class="form-group me-2">
+                        <div class="input-box">
+                            <select class="niceSelect">
+                                <option value="1">Travel Type</option>
+                                <option value="2">City Tour</option>
+                                <option value="3">Family Tour</option>
+                            </select>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
-                        <div class="why-us-item text-center p-4 py-5 border rounded bg-white">
-                            <div class="why-us-content">
-                                <div class="why-us-icon">
-                                    <i class="icon-directions theme"></i>
-                                </div>
-                                <h4><a href="about.html">Share Your Travel Preference</a></h4>
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
-                            </div>
+
+                    <div class="form-group me-2">
+                        <div class="input-box">
+                            <input type="date" name="date">
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
-                        <div class="why-us-item text-center p-4 py-5 border rounded bg-white">
-                            <div class="why-us-content">
-                                <div class="why-us-icon">
-                                    <i class="icon-compass theme"></i>
-                                </div>
-                                <h4><a href="about.html">We are 100% Trusted Tour Agency</a></h4>
-                                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
-                            </div>
-                        </div>
+
+
+                    <div class="form-group mb-0 text-center">
+                        <a href="#" class="nir-btn w-100"><i class="fa fa-search mr-2"></i> Search Now</a>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
-    <div class="white-overlay"></div>
-</section>
+</div>
+
+
+
 
 
 <section class="trending pb-5 pt-0">
