@@ -58,7 +58,7 @@
                     <div class="navbar-flex d-flex align-items-center justify-content-between w-100 pb-3 pt-3">
 
                         <div class="navbar-header">
-                            <a class="navbar-brand" href="index.html">
+                            <a class="navbar-brand" href="index.php?quanly=trangchu">
                                 <img src="view/images/logo.png" alt="image">
                             </a>
                         </div>
@@ -71,7 +71,7 @@
                                             aria-hidden="true"></i></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="index.html">Homepage Default</a></li>
-                                        <li><a href="index.php?srch=search">Homepage 1</a></li>
+                                        <li><a href="index.php?quanly=search">Homepage 1</a></li>
                                         <li><a href="index-2.html">Homepage 2</a></li>
                                         <li><a href="index-3.html">Homepage 3</a></li>
                                         <li><a href="index-4.html">Homepage 4</a></li>
@@ -114,14 +114,14 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="index.php?ab=about">About Us</a></li>
+                                <li><a href="index.php?quanly=about">About Us</a></li>
                                 <li class="submenu dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                         aria-haspopup="true" aria-expanded="false">Destinations <i
                                             class="icon-arrow-down" aria-hidden="true"></i></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="destination-list.html">Destination List</a></li>
-                                        <li><a href="index.php?dt=detail">Destination Detail</a></li>
+                                        <li><a href="index.php?quanly=detail">Destination Detail</a></li>
                                     </ul>
                                 </li>
                                 <li class="submenu dropdown">
@@ -200,7 +200,7 @@
                                         <li><a href="comingsoon.html">Coming Soon</a></li>
                                         <li><a href="testimonials.html">Testimonials</a></li>
                                         <li><a href="faq.html">Faq</a></li>
-                                        <li><a href="index.php?ct=contact">Contact Us</a></li>
+                                        <li><a href="index.php?quanly=contact">Contact Us</a></li>
                                         <li><a href="dashboard/dashboard.html">Dashboard</a></li>
                                     </ul>
                                 </li>
