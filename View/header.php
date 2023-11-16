@@ -33,7 +33,7 @@
 
                         <div class="navbar-header">
                             <a class="navbar-brand" href="index.php?quanly=trangchu">
-                                <img class="anh" src="View/images/Logo.jpg" alt="image">
+                                <img class="anh" src="View/images/logoo.png" alt="image">
                             </a>
                         </div>
 

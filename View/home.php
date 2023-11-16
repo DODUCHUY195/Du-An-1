@@ -14,35 +14,47 @@
                 <div class="form-content-in d-lg-flex align-items-center">
                     <div class="form-group me-2">
                         <div class="input-box">
+
+                            <p><img src="view/images/diemdi.svg" alt="">Nơi Đi</p>
                             <select class="niceSelect">
-                                <option value="1">Destination</option>
-                                <option value="2">Argentina</option>
-                                <option value="3">Belgium</option>
-                                <option value="4">Canada</option>
-                                <option value="5">Denmark</option>
+                                <option value="1">Chọn Điểm Đi</option>
+                                <option value="2">Hà Nội</option>
+                                <option value="3">Thanh Hóa</option>
+                                <option value="4">Hòa Bình</option>
+                                <option value="5">Ninh Bình</option>
+                                <option value="6">Vĩnh Phúc</option>
+                                <option value="7">Hà Nội</option>
+
+                            </select>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group me-2">
+                        <div class="input-box">
+                            <p> <img src="view/images/diemden.svg" alt="">Nơi Đến</p>
+                            <select class="niceSelect">
+                                <option value="1">Chọn Điểm Đến</option>
+                                <option value="2">Lai Châu</option>
+                                <option value="3">Hưng Yên</option>
+                                <option value="4">Nam Định</option>
+                                <option value="5">Ninh Bình</option>
+                                <option value="6">Sơn La</option>
+                                <option value="7">Hòa Bình</option>
                             </select>
                         </div>
                     </div>
 
                     <div class="form-group me-2">
                         <div class="input-box">
-                            <select class="niceSelect">
-                                <option value="1">Travel Type</option>
-                                <option value="2">City Tour</option>
-                                <option value="3">Family Tour</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group me-2">
-                        <div class="input-box">
+                            <p> <img src="view/images/ngaydi.svg" alt="">Ngày Đi</p>
                             <input type="date" name="date">
                         </div>
                     </div>
 
 
                     <div class="form-group mb-0 text-center">
-                        <a href="#" class="nir-btn w-100"><i class="fa fa-search mr-2"></i> Search Now</a>
+                        <a href="#" class="nir-btn w-100"><i class="fa fa-search mr-2"></i> Tìm Chuyến Đi</a>
                     </div>
                 </div>
             </div>

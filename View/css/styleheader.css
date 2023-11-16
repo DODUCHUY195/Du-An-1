@@ -4,7 +4,7 @@
 
 .anh{
     margin-left: 70px;
-    width: 100px;
+    width: 80px;
 }
 
 
@@ -22,6 +22,8 @@
 
 
 
+
+
 header{
     font-family: 'Times New Roman', Times, serif;
     color: black;
@@ -31,4 +33,20 @@ header{
 body{
     background-color: azure;
 }
+p.textfoot{
+    padding-left: 500px;
+}
 
+
+.info{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h6{
+    font-weight: 100;
+}
+
+.uytin{
+    width: 70%;
+}
