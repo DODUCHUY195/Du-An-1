@@ -83,19 +83,8 @@
          }
      });
 
-     // Slick SLider
-     $('.slider-store').slick({
-         slidesToShow: 1,
-         slidesToScroll: 1,
-         direction: 'vertical',
-         arrows: false,
-         dots: false,
-         fade: true,
-         autoplay: true,
-         asNavFor: '.slider-thumbs'
-     });
-    
 
+     
      $('.slider-thumbs').slick({
          slidesToShow: 5,
          slidesToScroll: 1,

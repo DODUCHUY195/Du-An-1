@@ -18,6 +18,8 @@ else if($temp == 'about'){
     include "view/contact.php";
 }else if($temp == 'trangchu'){
     include "view/trangchu.php";
+}else if($temp == 'th-na'){
+    include "View/chuyenxeth-na.php";
 }
 else{
     include "view/home.php";

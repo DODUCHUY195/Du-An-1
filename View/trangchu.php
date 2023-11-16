@@ -78,10 +78,12 @@
                 <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
                     <div class="trend-item rounded box-shadow">
                         <div class="trend-image position-relative">
-                            <img src="view/images/content1.png" alt="image" class>
+                            <a href="index.php?quanly=th-na"><img src="view/images/content1.png" alt="image" class></a>
                         </div>
                         <div class="trend-content p-4 pt-5 position-relative">
-                            <h5 class="theme mb-1"><i class="flaticon-location-pin"></i> Thanh Hóa - Nghệ An</h5>
+                            <h5 class="theme mb-1"><i class="flaticon-location-pin"></i> <a
+                                    href="index.php?quanly=th-na">Thanh Hóa - Nghệ
+                                    An</a></h5>
                             <div class="entry-meta">
                                 <div class="entry-author d-flex align-items-center">
                                     <p class="mb-0"><span class="theme fw-bold fs-5"> 150.000đ</span>
