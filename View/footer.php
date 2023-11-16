@@ -81,7 +81,7 @@
 
 
 
-<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script data-cfasync="false" src="view/../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script src="view/js/jquery-3.5.1.min.js"></script>
 <script src="view/js/bootstrap.min.js"></script>
 <script src="view/js/particles.js"></script>

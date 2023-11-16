@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Travelin - Travel Tour Booking HTML Templates</title>
+    <title>Đặt Xe Khách Đi Nào</title>
 
     <link rel="shortcut icon" type="image/x-icon" href="view/images/favicon.png">
 
@@ -23,7 +23,11 @@
     <link rel="stylesheet" href="view/css/styleheader.css">
 </head>
 
+
 <body>
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
 
     <header>
         <div class="header_menu" id="header_menu">

@@ -9,14 +9,12 @@
  (function($) {
      "use strict";
 
-
       /*======== Doucument Ready Function =========*/
     jQuery(document).ready(function () {
      //CACHE JQUERY OBJECTS
       $("#status").fadeOut();
-      $("#preloader").delay(200).fadeOut("slow");
-      $("body").delay(200).css({ "overflow": "visible" });
-
+      $("#preloader").delay(300).fadeOut("slow");
+      $("body").delay(300).css({ "overflow": "visible" });
       
       /* Init Wow Js */
       new WOW().init();

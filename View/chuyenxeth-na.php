@@ -723,7 +723,7 @@
                             </ul>
                         </div>
                         <div class="sidebar-item mb-4">
-                            <h3 class>Cabin Type</h3>
+                            <h3 class>Loại Xe</h3>
                             <ul class="sidebar-category1">
                                 <li><input type="checkbox" checked> Basic Economy <span class="float-end">$92</span>
                                 </li>
@@ -732,10 +732,23 @@
                                 <li><input type="checkbox"> Business <span class="float-end">$22</span></li>
                             </ul>
                         </div>
+
                         <div class="sidebar-item mb-4">
-                            <h3 class>Airlines</h3>
+                            <h3 class>Hàng Chế</h3>
                             <ul class="sidebar-category1">
                                 <li><input type="checkbox" checked> Etihad Airway <span class="float-end">92</span></li>
+                                <li><input type="checkbox"> Dragon Airway <span class="float-end">22</span></li>
+                                <li><input type="checkbox"> Air Asia Airway <span class="float-end">35</span></li>
+                                <li><input type="checkbox"> Thai Airway <span class="float-end">41</span></li>
+                                <li><input type="checkbox"> Turkish Airway <span class="float-end">11</span></li>
+                                <li><input type="checkbox"> Indigo Airway <span class="float-end">61</span></li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar-item mb-4">
+                            <h3 class>Tầng</h3>
+                            <ul class="sidebar-category1">
+                                <li><input type="" checked> Etihad Airway <span class="float-end">92</span></li>
                                 <li><input type="checkbox"> Dragon Airway <span class="float-end">22</span></li>
                                 <li><input type="checkbox"> Air Asia Airway <span class="float-end">35</span></li>
                                 <li><input type="checkbox"> Thai Airway <span class="float-end">41</span></li>
