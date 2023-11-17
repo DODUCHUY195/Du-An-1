@@ -1,32 +1,24 @@
 <?php
 
-    include "view/header.php";
+    include "View/header.php";
 if(isset($_GET ["quanly"])){
     $temp = $_GET["quanly"];
 }else{
     $temp = '';
 }
-if($temp == 'search'){
-    include "view/search.php";
-    }
-else if($temp == 'detail'){
-    include "view/detail.php";
-    }
-else if($temp == 'about'){
-    include "view/about.php";
-}else if($temp == 'contact'){
-    include "view/contact.php";
-}else if($temp == 'trangchu'){
-    include "view/trangchu.php";
-<<<<<<< HEAD
-=======
+
+if($temp == 'trangchu'){
+    include "View/trangchu.php";
 }else if($temp == 'th-na'){
     include "View/chuyenxeth-na.php";
->>>>>>> 94c5379d1a882fbcee51c4c700513556399080ea
+}else if($temp == 'admin'){
+    include "indexAdmin.php";
 }
 else{
-    include "view/home.php";
+    include "View/home.php";
 }
 
-include "view/footer.php";
+include "View/footer.php";
+
+
 ?>

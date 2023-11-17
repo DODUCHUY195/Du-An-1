@@ -1,21 +1,13 @@
 <footer class="main-footer">
-<<<<<<< HEAD
+
     <strong>Copyright &copy; 2014-2020 <a href="https://adminlte.io">Xevivu.com</a>.</strong>
-=======
-    <strong>Copyright &copy; 2014-2020 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
-    All rights reserved.
-    <div class="float-right d-none d-sm-inline-block">
-        <b>Version</b> 3.1.0-rc
-    </div>
->>>>>>> 94c5379d1a882fbcee51c4c700513556399080ea
+
 </footer>
 
 <!-- Control Sidebar -->
-<aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-</aside>
+
 <!-- /.control-sidebar -->
-</div>
+
 <!-- ./wrapper -->
 
 <!-- jQuery -->

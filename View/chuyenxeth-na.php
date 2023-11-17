@@ -72,14 +72,16 @@
                     <div class="click-menu d-flex align-items-center justify-content-between">
                         <div class="sortby d-flex align-items-center justify-content-between ml-2">
                             <select class="niceSelect">
-                                <option value="1">Sort By</option>
-                                <option value="2">Average rating</option>
-                                <option value="3">Price: low to high</option>
-                                <option value="4">Price: high to low</option>
+                                <option value="1">Sắp Xếp Theo</option>
+                                <option value="2">Giá Từ Cao->Thấp</option>
+                                <option value="3">Giá Từ Thấp->Cao</option>
+                                <option value="4">Ngày Hiện Tại</option>
                             </select>
                         </div>
                     </div>
                 </div>
+
+
                 <div class="flight-list">
                     <div class="flight-full">
                         <div class="item mb-2 border-all p-3 px-4 rounded">
@@ -125,7 +127,7 @@
                                                     type="button" data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                                     aria-controls="flush-collapseOne">
-                                                    Flight Details
+                                                    Xem Thông Tin Chi Tiết
                                                 </button>
                                             </p>
                                             <div id="flush-collapseOne" class="accordion-collapse collapse"
@@ -170,446 +172,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item mb-2 border-all p-3 px-4 rounded">
-                            <div class="row d-flex align-items-center justify-content-between">
-                                <div class="col-lg-3 col-md-3 col-sm-12">
-                                    <div class="item-inner-image text-start">
-                                        <img src="View/images/flights/flight_grid_3.png" alt="image">
-                                        <h5 class="mb-0">Air Asia Airlines</h5>
-                                        <small>Operated by Asia</small>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner">
-                                        <div class="content">
-                                            <h5 class="mb-0">Friday Apr 18, 2022</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner">
-                                        <div class="content">
-                                            <h3 class="mb-0">9:30</h3>
-                                            <p class="mb-0 text-uppercase">DAC</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner flight-time">
-                                        <p class="mb-0">22H 45M <br>1 Stops</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-12">
-                                    <div class="item-inner text-end">
-                                        <p class="theme fs-4 fw-bold">$1,445</p>
-                                        <a href="flight-detail.html" class="nir-btn">View Deals</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="accordion accordion-flush border-t mt-1 pt-1" id="accordionflush1">
-                                        <div class="accordion-item overflow-hidden">
-                                            <p class="accordion-header" id="flush-headingOne1">
-                                                <button class="accordion-button collapsed p-0 border-0 rounded-0"
-                                                    type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#flush-collapseOne7" aria-expanded="false"
-                                                    aria-controls="flush-collapseOne">
-                                                    Flight Details
-                                                </button>
-                                            </p>
-                                            <div id="flush-collapseOne7" class="accordion-collapse collapse"
-                                                aria-labelledby="flush-headingOne1"
-                                                data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body p-0">
-                                                    <div class="row flight-detail-wrap align-items-center border-t pt-1 mt-1"
-                                                        style>
-                                                        <div class="col-lg-4">
-                                                            <div class="flight-date">
-                                                                <ul>
-                                                                    <li>Economy</li>
-                                                                    <li>Thursday, Jun 16 - 23:20</li>
-                                                                    <li class="theme">22h 50m</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-8">
-                                                            <div class="flight-detail-right">
-                                                                <h5><i class="fa fa-plane"></i> IST - Istanbul Airport,
-                                                                    Turkish</h5>
-                                                                <div
-                                                                    class="flight-detail-info d-flex align-items-center p-2 py-3 bg-grey rounded mb-2">
-                                                                    <img src="View/images/flights/flight_grid_3.png"
-                                                                        alt>
-                                                                    <ul>
-                                                                        <li>Tpm Line</li>
-                                                                        <li>Operated by Airlines</li>
-                                                                        <li>Economy | Flight EK585 | Aircraft BOEING
-                                                                            777-300ER</li>
-                                                                        <li>Adult(s): 25KG luggage free</li>
-                                                                    </ul>
-                                                                </div>
-                                                                <h5 class="mb-0">DXB - Dubai, United Arab Emirates</h5>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item mb-2 border-all p-3 px-4 rounded">
-                            <div class="row d-flex align-items-center justify-content-between">
-                                <div class="col-lg-3 col-md-3 col-sm-12">
-                                    <div class="item-inner-image text-start">
-                                        <img src="View/images/flights/flight_grid_4.png" alt="image">
-                                        <h5 class="mb-0">Turkish Airlines</h5>
-                                        <small>Operated by Turkey</small>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner">
-                                        <div class="content">
-                                            <h5 class="mb-0">Saturday Jun 11, 2022</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner">
-                                        <div class="content">
-                                            <h3 class="mb-0">18:30</h3>
-                                            <p class="mb-0 text-uppercase">DAC</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner flight-time">
-                                        <p class="mb-0">12H 45M <br>2 Stops</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-12">
-                                    <div class="item-inner text-end">
-                                        <p class="theme2 fs-4 fw-bold">$2,445</p>
-                                        <a href="flight-detail.html" class="nir-btn-black">View Deals</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="accordion accordion-flush border-t mt-1 pt-1" id="accordionflush2">
-                                        <div class="accordion-item overflow-hidden">
-                                            <p class="accordion-header" id="flush-headingOne2">
-                                                <button class="accordion-button collapsed p-0 border-0 rounded-0"
-                                                    type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#flush-collapseOne6" aria-expanded="false"
-                                                    aria-controls="flush-collapseOne">
-                                                    Flight Details
-                                                </button>
-                                            </p>
-                                            <div id="flush-collapseOne6" class="accordion-collapse collapse"
-                                                aria-labelledby="flush-headingOne2"
-                                                data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body p-0">
-                                                    <div class="row flight-detail-wrap align-items-center border-t pt-1 mt-1"
-                                                        style>
-                                                        <div class="col-lg-4">
-                                                            <div class="flight-date">
-                                                                <ul>
-                                                                    <li>Economy</li>
-                                                                    <li>Thursday, Jun 16 - 23:20</li>
-                                                                    <li class="theme">22h 50m</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-8">
-                                                            <div class="flight-detail-right">
-                                                                <h5><i class="fa fa-plane"></i> IST - Istanbul Airport,
-                                                                    Turkish</h5>
-                                                                <div
-                                                                    class="flight-detail-info d-flex align-items-center p-2 py-3 bg-grey rounded mb-2">
-                                                                    <img src="View/images/flights/flight_grid_3.png"
-                                                                        alt>
-                                                                    <ul>
-                                                                        <li>Tpm Line</li>
-                                                                        <li>Operated by Airlines</li>
-                                                                        <li>Economy | Flight EK585 | Aircraft BOEING
-                                                                            777-300ER</li>
-                                                                        <li>Adult(s): 25KG luggage free</li>
-                                                                    </ul>
-                                                                </div>
-                                                                <h5 class="mb-0">DXB - Dubai, United Arab Emirates</h5>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item mb-2 border-all p-3 px-4 rounded">
-                            <div class="row d-flex align-items-center justify-content-between">
-                                <div class="col-lg-3 col-md-3 col-sm-12">
-                                    <div class="item-inner-image text-start">
-                                        <img src="View/images/flights/flight_grid_5.png" alt="image">
-                                        <h5 class="mb-0">Dragon Airlines</h5>
-                                        <small>Operated by China</small>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner">
-                                        <div class="content">
-                                            <h5 class="mb-0">Sunday May 15, 2022</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner">
-                                        <div class="content">
-                                            <h3 class="mb-0">12:30</h3>
-                                            <p class="mb-0 text-uppercase">DAC</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner flight-time">
-                                        <p class="mb-0">16H 45M <br>2 Stops</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-12">
-                                    <div class="item-inner text-end">
-                                        <p class="theme2 fs-4 fw-bold">$2,045</p>
-                                        <a href="flight-detail.html" class="nir-btn-black">View Deals</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="accordion accordion-flush border-t mt-1 pt-1" id="accordionflush3">
-                                        <div class="accordion-item overflow-hidden">
-                                            <p class="accordion-header" id="flush-headingOne3">
-                                                <button class="accordion-button collapsed p-0 border-0 rounded-0"
-                                                    type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#flush-collapseOne5" aria-expanded="false"
-                                                    aria-controls="flush-collapseOne">
-                                                    Flight Details
-                                                </button>
-                                            </p>
-                                            <div id="flush-collapseOne5" class="accordion-collapse collapse"
-                                                aria-labelledby="flush-headingOne3"
-                                                data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body p-0">
-                                                    <div class="row flight-detail-wrap align-items-center border-t pt-1 mt-1"
-                                                        style>
-                                                        <div class="col-lg-4">
-                                                            <div class="flight-date">
-                                                                <ul>
-                                                                    <li>Economy</li>
-                                                                    <li>Thursday, Jun 16 - 23:20</li>
-                                                                    <li class="theme">22h 50m</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-8">
-                                                            <div class="flight-detail-right">
-                                                                <h5><i class="fa fa-plane"></i> IST - Istanbul Airport,
-                                                                    Turkish</h5>
-                                                                <div
-                                                                    class="flight-detail-info d-flex align-items-center p-2 py-3 bg-grey rounded mb-2">
-                                                                    <img src="View/images/flights/flight_grid_3.png"
-                                                                        alt>
-                                                                    <ul>
-                                                                        <li>Tpm Line</li>
-                                                                        <li>Operated by Airlines</li>
-                                                                        <li>Economy | Flight EK585 | Aircraft BOEING
-                                                                            777-300ER</li>
-                                                                        <li>Adult(s): 25KG luggage free</li>
-                                                                    </ul>
-                                                                </div>
-                                                                <h5 class="mb-0">DXB - Dubai, United Arab Emirates</h5>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item mb-2 border-all p-3 px-4 rounded">
-                            <div class="row d-flex align-items-center justify-content-between">
-                                <div class="col-lg-3 col-md-3 col-sm-12">
-                                    <div class="item-inner-image text-start">
-                                        <img src="View/images/flights/flight_grid_3.png" alt="image">
-                                        <h5 class="mb-0">Air Asia Airlines</h5>
-                                        <small>Operated by Asia</small>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner">
-                                        <div class="content">
-                                            <h5 class="mb-0">Friday Apr 18, 2022</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner">
-                                        <div class="content">
-                                            <h3 class="mb-0">9:30</h3>
-                                            <p class="mb-0 text-uppercase">DAC</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner flight-time">
-                                        <p class="mb-0">22H 45M <br>1 Stops</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-12">
-                                    <div class="item-inner text-end">
-                                        <p class="theme fs-4 fw-bold">$1,445</p>
-                                        <a href="flight-detail.html" class="nir-btn">View Deals</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="accordion accordion-flush border-t mt-1 pt-1" id="accordionflush4">
-                                        <div class="accordion-item overflow-hidden">
-                                            <p class="accordion-header" id="flush-headingOne4">
-                                                <button class="accordion-button collapsed p-0 border-0 rounded-0"
-                                                    type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#flush-collapseOne2" aria-expanded="false"
-                                                    aria-controls="flush-collapseOne">
-                                                    Flight Details
-                                                </button>
-                                            </p>
-                                            <div id="flush-collapseOne2" class="accordion-collapse collapse"
-                                                aria-labelledby="flush-headingOne4"
-                                                data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body p-0">
-                                                    <div class="row flight-detail-wrap align-items-center border-t pt-1 mt-1"
-                                                        style>
-                                                        <div class="col-lg-4">
-                                                            <div class="flight-date">
-                                                                <ul>
-                                                                    <li>Economy</li>
-                                                                    <li>Thursday, Jun 16 - 23:20</li>
-                                                                    <li class="theme">22h 50m</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-8">
-                                                            <div class="flight-detail-right">
-                                                                <h5><i class="fa fa-plane"></i> IST - Istanbul Airport,
-                                                                    Turkish</h5>
-                                                                <div
-                                                                    class="flight-detail-info d-flex align-items-center p-2 py-3 bg-grey rounded mb-2">
-                                                                    <img src="View/images/flights/flight_grid_3.png"
-                                                                        alt>
-                                                                    <ul>
-                                                                        <li>Tpm Line</li>
-                                                                        <li>Operated by Airlines</li>
-                                                                        <li>Economy | Flight EK585 | Aircraft BOEING
-                                                                            777-300ER</li>
-                                                                        <li>Adult(s): 25KG luggage free</li>
-                                                                    </ul>
-                                                                </div>
-                                                                <h5 class="mb-0">DXB - Dubai, United Arab Emirates</h5>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item mb-2 border-all p-3 px-4 rounded">
-                            <div class="row d-flex align-items-center justify-content-between">
-                                <div class="col-lg-3 col-md-3 col-sm-12">
-                                    <div class="item-inner-image text-start">
-                                        <img src="View/images/flights/flight_grid_4.png" alt="image">
-                                        <h5 class="mb-0">Turkish Airlines</h5>
-                                        <small>Operated by Turkey</small>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner">
-                                        <div class="content">
-                                            <h5 class="mb-0">Saturday Jun 11, 2022</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner">
-                                        <div class="content">
-                                            <h3 class="mb-0">18:30</h3>
-                                            <p class="mb-0 text-uppercase">DAC</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner flight-time">
-                                        <p class="mb-0">12H 45M <br>2 Stops</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-12">
-                                    <div class="item-inner text-end">
-                                        <p class="theme2 fs-4 fw-bold">$2,445</p>
-                                        <a href="flight-detail.html" class="nir-btn-black">View Deals</a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="accordion accordion-flush border-t mt-1 pt-1" id="accordionflush5">
-                                        <div class="accordion-item overflow-hidden">
-                                            <p class="accordion-header" id="flush-headingOne5">
-                                                <button class="accordion-button collapsed p-0 border-0 rounded-0"
-                                                    type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#flush-collapseOne3" aria-expanded="false"
-                                                    aria-controls="flush-collapseOne">
-                                                    Flight Details
-                                                </button>
-                                            </p>
-                                            <div id="flush-collapseOne3" class="accordion-collapse collapse"
-                                                aria-labelledby="flush-headingOne5"
-                                                data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body p-0">
-                                                    <div class="row flight-detail-wrap align-items-center border-t pt-1 mt-1"
-                                                        style>
-                                                        <div class="col-lg-4">
-                                                            <div class="flight-date">
-                                                                <ul>
-                                                                    <li>Economy</li>
-                                                                    <li>Thursday, Jun 16 - 23:20</li>
-                                                                    <li class="theme">22h 50m</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-lg-8">
-                                                            <div class="flight-detail-right">
-                                                                <h5><i class="fa fa-plane"></i> IST - Istanbul Airport,
-                                                                    Turkish</h5>
-                                                                <div
-                                                                    class="flight-detail-info d-flex align-items-center p-2 py-3 bg-grey rounded mb-2">
-                                                                    <img src="View/images/flights/flight_grid_3.png"
-                                                                        alt>
-                                                                    <ul>
-                                                                        <li>Tpm Line</li>
-                                                                        <li>Operated by Airlines</li>
-                                                                        <li>Economy | Flight EK585 | Aircraft BOEING
-                                                                            777-300ER</li>
-                                                                        <li>Adult(s): 25KG luggage free</li>
-                                                                    </ul>
-                                                                </div>
-                                                                <h5 class="mb-0">DXB - Dubai, United Arab Emirates</h5>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
+
                         <div class="item mb-2 border-all p-3 px-4 rounded">
                             <div class="row d-flex align-items-center justify-content-between">
                                 <div class="col-lg-3 col-md-3 col-sm-12">
@@ -653,7 +217,7 @@
                                                     type="button" data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseOne4" aria-expanded="false"
                                                     aria-controls="flush-collapseOne">
-                                                    Flight Details
+                                                    Xem Thông Tin Chi Tiết
                                                 </button>
                                             </p>
                                             <div id="flush-collapseOne4" class="accordion-collapse collapse"
@@ -671,6 +235,8 @@
                                                                 </ul>
                                                             </div>
                                                         </div>
+
+                                                        xem chi tiét
                                                         <div class="col-lg-8">
                                                             <div class="flight-detail-right">
                                                                 <h5><i class="fa fa-plane"></i> IST - Istanbul Airport,
@@ -690,6 +256,8 @@
                                                                 <h5 class="mb-0">DXB - Dubai, United Arab Emirates</h5>
                                                             </div>
                                                         </div>
+                                                        /
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -701,6 +269,7 @@
                     </div>
                     <div class="flight-btn text-center"><a href="flight-grid.html" class="nir-btn">Load More</a></div>
                 </div>
+
             </div>
             <div class="col-lg-4 ps-lg-4">
                 <div class="sidebar-sticky">
@@ -724,36 +293,36 @@
                         </div>
                         <div class="sidebar-item mb-4">
                             <h3 class>Loại Xe</h3>
-                            <ul class="sidebar-category1">
-                                <li><input type="checkbox" checked> Basic Economy <span class="float-end">$92</span>
+                            <ul>
+                                <li class="loaixe">
+                                    <div>
+                                        <button>Ghế</button>
+                                        <button>Giường</button>
+                                        <button>Limousine</button>
+                                    </div>
                                 </li>
-                                <li><input type="checkbox"> Economy <span class="float-end">$40</span></li>
-                                <li><input type="checkbox"> Mixed <span class="float-end">$22</span></li>
-                                <li><input type="checkbox"> Business <span class="float-end">$22</span></li>
                             </ul>
                         </div>
 
                         <div class="sidebar-item mb-4">
                             <h3 class>Hàng Chế</h3>
                             <ul class="sidebar-category1">
-                                <li><input type="checkbox" checked> Etihad Airway <span class="float-end">92</span></li>
-                                <li><input type="checkbox"> Dragon Airway <span class="float-end">22</span></li>
-                                <li><input type="checkbox"> Air Asia Airway <span class="float-end">35</span></li>
-                                <li><input type="checkbox"> Thai Airway <span class="float-end">41</span></li>
-                                <li><input type="checkbox"> Turkish Airway <span class="float-end">11</span></li>
-                                <li><input type="checkbox"> Indigo Airway <span class="float-end">61</span></li>
+                                <div>
+                                    <button>Hàng Đầu</button>
+                                    <button>Hàng Giữa</button>
+                                    <button>Hàng Cuối</button>
+                                </div>
                             </ul>
                         </div>
 
                         <div class="sidebar-item mb-4">
                             <h3 class>Tầng</h3>
                             <ul class="sidebar-category1">
-                                <li><input type="" checked> Etihad Airway <span class="float-end">92</span></li>
-                                <li><input type="checkbox"> Dragon Airway <span class="float-end">22</span></li>
-                                <li><input type="checkbox"> Air Asia Airway <span class="float-end">35</span></li>
-                                <li><input type="checkbox"> Thai Airway <span class="float-end">41</span></li>
-                                <li><input type="checkbox"> Turkish Airway <span class="float-end">11</span></li>
-                                <li><input type="checkbox"> Indigo Airway <span class="float-end">61</span></li>
+                                <div>
+                                    <button>Ghế</button>
+                                    <button>Giường</button>
+
+                                </div>
                             </ul>
                         </div>
                     </div>
