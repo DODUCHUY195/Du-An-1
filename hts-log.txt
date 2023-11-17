@@ -1,0 +1,46 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 13 Nov 2023 17:27:34 at https://htmldesigntemplates.com/html/travelin/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://htmldesigntemplates.com/html/travelin/index.html -O1 "D:\duaan\demo\demo" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:32:10	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/detail-fullwidth.html (from https://htmldesigntemplates.com/html/travelin/index.html)
+17:32:10	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/about-us.html (from https://htmldesigntemplates.com/html/travelin/index.html)
+17:32:10	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/images/calltoaction3.jpg (from https://htmldesigntemplates.com/html/travelin/css/style.css)
+17:32:10	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/images/trending-bg.jpg (from https://htmldesigntemplates.com/html/travelin/css/style.css)
+17:32:10	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/grid-leftfilter.html (from https://htmldesigntemplates.com/html/travelin/index-3.html)
+17:32:10	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/flight-detail (from https://htmldesigntemplates.com/html/travelin/index-flight.html)
+17:32:10	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/detail-rightside.html (from https://htmldesigntemplates.com/html/travelin/index-cruise.html)
+17:32:10	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/destination-single1.html (from https://htmldesigntemplates.com/html/travelin/booking.html)
+17:32:10	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/register.html (from https://htmldesigntemplates.com/html/travelin/login.html)
+17:32:53	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/blog-single.html (from https://htmldesigntemplates.com/html/travelin/post-list-1.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/department.html (from https://htmldesigntemplates.com/html/travelin/dashboard/gallery.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/assets/images/favicon.png (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/customer-list.html (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/customer-block.html (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/addproduct.html (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/products-list.html (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/order-manage.html (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/order-history.html (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/order-detail.html (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/order-invoice.html (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/delivery-list.html (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/delivery-person.html (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/payment.html (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/invent-report.html (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/stock-report.html (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/payment-report.html (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/customer-report.html (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/billing.html (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/assets/images/bg.jpg (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:32:57	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/assets/images/author.jpg (from https://htmldesigntemplates.com/html/travelin/dashboard/profile.html)
+17:33:06	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/assets/images/trending2.jpg (from https://htmldesigntemplates.com/html/travelin/dashboard/popup-ads.html)
+17:39:25	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/addmarquee.html (from https://htmldesigntemplates.com/html/travelin/dashboard/top-servicebar.html)
+17:39:25	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/adddoctor.html (from https://htmldesigntemplates.com/html/travelin/dashboard/top-servicebar.html)
+17:39:25	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/doctors-list.html (from https://htmldesigntemplates.com/html/travelin/dashboard/top-servicebar.html)
+17:39:25	Error: 	"Not Found" (404) at link https://htmldesigntemplates.com/html/travelin/dashboard/chat.html (from https://htmldesigntemplates.com/html/travelin/dashboard/top-servicebar.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 12 minutes 0 seconds : 838 links scanned, 802 files written (61994643 bytes overall) [54896318 bytes received at 76244 bytes/sec], 15062206 bytes transferred using HTTP compression in 681 files, ratio 24%, 41.9 requests per connection
+(35 errors, 0 warnings, 0 messages)
