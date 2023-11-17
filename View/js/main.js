@@ -9,14 +9,22 @@
  (function($) {
      "use strict";
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 94c5379d1a882fbcee51c4c700513556399080ea
       /*======== Doucument Ready Function =========*/
     jQuery(document).ready(function () {
      //CACHE JQUERY OBJECTS
       $("#status").fadeOut();
+<<<<<<< HEAD
       $("#preloader").delay(200).fadeOut("slow");
       $("body").delay(200).css({ "overflow": "visible" });
 
+=======
+      $("#preloader").delay(300).fadeOut("slow");
+      $("body").delay(300).css({ "overflow": "visible" });
+>>>>>>> 94c5379d1a882fbcee51c4c700513556399080ea
       
       /* Init Wow Js */
       new WOW().init();
@@ -83,6 +91,7 @@
          }
      });
 
+<<<<<<< HEAD
      // Slick SLider
      $('.slider-store').slick({
          slidesToShow: 1,
@@ -96,6 +105,10 @@
      });
     
 
+=======
+
+     
+>>>>>>> 94c5379d1a882fbcee51c4c700513556399080ea
      $('.slider-thumbs').slick({
          slidesToShow: 5,
          slidesToScroll: 1,

@@ -6,7 +6,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+<<<<<<< HEAD
     <title>Travelin - Travel Tour Booking HTML Templates</title>
+=======
+    <title>Đặt Xe Khách Đi Nào</title>
+>>>>>>> 94c5379d1a882fbcee51c4c700513556399080ea
 
     <link rel="shortcut icon" type="image/x-icon" href="view/images/favicon.png">
 
@@ -20,14 +24,23 @@
         href="view/../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="view/../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="view/fonts/line-icons.css" type="text/css">
+<<<<<<< HEAD
 </head>
 
 <body>
 
+=======
+    <link rel="stylesheet" href="view/css/styleheader.css">
+</head>
+
+
+<body>
+>>>>>>> 94c5379d1a882fbcee51c4c700513556399080ea
     <div id="preloader">
         <div id="status"></div>
     </div>
 
+<<<<<<< HEAD
 
     <header class="main_header_area">
         <div class="header-content py-1 bg-theme">
@@ -52,6 +65,9 @@
             </div>
         </div>
 
+=======
+    <header>
+>>>>>>> 94c5379d1a882fbcee51c4c700513556399080ea
         <div class="header_menu" id="header_menu">
             <nav class="navbar navbar-default">
                 <div class="container">
@@ -59,11 +75,16 @@
 
                         <div class="navbar-header">
                             <a class="navbar-brand" href="index.php?quanly=trangchu">
+<<<<<<< HEAD
                                 <img src="view/images/logo.png" alt="image">
+=======
+                                <img class="anh" src="View/images/logoo.png" alt="image">
+>>>>>>> 94c5379d1a882fbcee51c4c700513556399080ea
                             </a>
                         </div>
 
                         <div class="navbar-collapse1 d-flex align-items-center" id="bs-example-navbar-collapse-1">
+<<<<<<< HEAD
                             <ul class="nav navbar-nav" id="responsive-menu">
                                 <li class="dropdown submenu active">
                                     <a href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button"
@@ -252,6 +273,32 @@
                             <a href="#" class="nir-btn white">Book Now</a>
                         </div>
                         <div id="slicknav-mobile"></div>
+=======
+
+                            <ul class="nav navbar-nav" id="responsive-menu">
+
+                                <li><a href="index.php?quanly=trangchu" class="dropdown-toggle">Trang Chủ</a></li>
+
+                                <li class="dropdown submenu active">
+                                    <a href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false">Xe <i class="icon-arrow-down"
+                                            aria-hidden="true"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Xe Giường Nằm</a></li>
+                                        <li><a href="#">Xe Limousine</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><a href="#" class="dropdown-toggle">Tra Cứu Vé</a></li>
+
+                                <li><a href="#" class="dropdown-toggle">Tra Cứu Hóa Đơn</a></li>
+
+                                <li><a href="index.php?quanly=about" class="dropdown-toggle">Về Chúng Tôi</a></li>
+
+                                <li><a href="index.php?quanly=contact" class="dropdown-toggle">Liên Hệ</a></li>
+
+                        </div>
+>>>>>>> 94c5379d1a882fbcee51c4c700513556399080ea
                     </div>
                 </div>
             </nav>
