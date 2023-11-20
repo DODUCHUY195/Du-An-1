@@ -20,5 +20,4 @@ else{
 
 include "View/footer.php";
 
-
 ?>

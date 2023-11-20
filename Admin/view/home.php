@@ -9,6 +9,7 @@
                 <th>Ảnh</th>
                 <th>Loại Vé</th>
                 <th>Giá</th>
+                <th>Trạng Thái</th>
                 <th>Hoạt Động</th>
             </tr>
         </thead>
@@ -21,6 +22,7 @@
                 <td class="col-2"><img src="view/images/'.$sp['image'].'" alt="Err" width="100px"></td>
                 <td class="col-3">'.$sp['danhmuc'].'</td>
                 <td>'.$sp['gia'].'</td>
+                <td>'.$sp['trangthai'].'</td>
                 <td class="col-2"><a href="indexController.php?act=update&id='.$sp['id'].'"><button class="btn btn-warning">Cập Nhật</button></a> |
                     <a href="indexController.php?act=delete&id='.$sp['id'].'"><button class="btn btn-danger">Xóa</button></a></td>
             </tr>';

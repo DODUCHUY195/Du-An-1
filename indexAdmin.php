@@ -6,7 +6,7 @@
     $tam = '';
 }
 if($tam == 'more'){
-    include "Admin/indexAdd.php";
+    include "Admin/indexController.php";
 }
 else {
     include "Admin/home1.php";

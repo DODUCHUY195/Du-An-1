@@ -30,6 +30,12 @@
             <p class="custom-paragraph"><?= $priceErr?></p>
         </div>
 
+        <div class="mb-3 mt-3">
+            <label for="trangthai">Trạng Thái</label>
+            <input class="form-control" type="text" id="trangthai" placeholder="Nhập trạng thái" name="trangthai">
+            <p class="custom-paragraph"><?= $statusErr?></p>
+        </div>
+
         <button type="submit" class="btn btn-primary" name="submit">Hoàn Tất</button>
     </form>
 </div>

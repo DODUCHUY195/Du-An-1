@@ -14,11 +14,13 @@ if(isset($_GET['act'])&&($_GET['act']!="")){
             $nameErr="";
             $imageErr="";
             $priceErr="";
+            $statusErr="";
             if(isset($_POST['submit'])){
                 $name=$_POST['name'];
                 $category=$_POST['category'];
                 $file=$_FILES['file']['name'];
                 $gia=$_POST['gia'];
+                $trangthai=$_POST['trangthai'];
                 $check=true;
 
                 if(empty(trim($name))){
@@ -27,8 +29,10 @@ if(isset($_GET['act'])&&($_GET['act']!="")){
                 }if(empty(trim($gia))){
                     $priceErr="Vui long không để trống";
                     $check = false;
-                }
-                if(empty($file)){
+                }if(empty(trim($trangthai))){
+                    $statusErr="Vui long không để trống";
+                    $check = false;
+                }if(empty($file)){
                     $imageErr="Vui lòng Upload file ảnh lên !";
                     $check=false;
                 }else{
@@ -45,7 +49,7 @@ if(isset($_GET['act'])&&($_GET['act']!="")){
                     }
                 }
                 if($check){
-                    insert_car($name,$file,$category,$gia);
+                    insert_car($name,$file,$category,$gia,$trangthai);
                     echo '<script>
                         alert("Bạn đã thêm thành công !");
                         window.location.href="indexController.php";
@@ -59,6 +63,7 @@ if(isset($_GET['act'])&&($_GET['act']!="")){
             $nameErr="";
             $imageErr="";
             $priceErr="";
+            $statusErr="";
 
             if(isset($_GET['id'])&&($_GET['id']!="")){
                 $id=$_GET['id'];
@@ -69,6 +74,7 @@ if(isset($_GET['act'])&&($_GET['act']!="")){
                     $oldFile=$sp['image'];
                     $category=$sp['categoryId'];
                     $gia=$sp['gia'];
+                    $trangthai=$sp['trangthai'];
                 }
             }
 
@@ -79,6 +85,7 @@ if(isset($_GET['act'])&&($_GET['act']!="")){
                 $file=$_FILES['file']['name'];
                 $oldFile=$_POST['oldFile'];
                 $gia=$_POST['gia'];
+                $trangthai=$_POST['trangthai'];
                 $check=true;
 
                 if(empty(trim($name))){
@@ -86,6 +93,9 @@ if(isset($_GET['act'])&&($_GET['act']!="")){
                     $check=false;
                 }if(empty(trim($gia))){
                     $priceErr="Vui lòng không để trống !";
+                    $check=false;
+                }if(empty(trim($trangthai))){
+                    $statusErr="Vui lòng không để trống !";
                     $check=false;
                 }
                 if(empty($file)){
@@ -105,7 +115,7 @@ if(isset($_GET['act'])&&($_GET['act']!="")){
                     }
                 }
                 if($check){
-                    update_car($id,$name,$file,$oldFile,$category,$gia);
+                    update_car($id,$name,$file,$oldFile,$category,$gia,$trangthai);
                     echo '<script>
                         alert("Bạn đã Update thành công!");
                         window.location.href="indexController.php";
