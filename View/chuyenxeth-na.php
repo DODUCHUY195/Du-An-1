@@ -1,20 +1,19 @@
 <div class="form-main">
     <div class="section-shape">
-        <img class="banner" src="View/images/banner.jpg" alt="">
+
     </div>
-    <div class="container">
-        <div class="row align-items-center form-content rounded position-relative ms-5 me-5">
-            <div class="col-lg-2 p-0">
-                <h4
-                    class="form-title form-title1 text-center p-4 py-5 white bg-theme mb-0 rounded-start d-lg-flex align-items-center">
-                    <i class="icon-location-pin fs-1 me-1"></i> Find
+    <div class="">
+        <div class="">
+            <div class="">
+                <h4 class="">
+                    <i class=""></i> Find
                 </h4>
             </div>
-            <div class="col-lg-10 px-4">
-                <div class="form-content-in d-lg-flex align-items-center">
-                    <div class="form-group me-2">
-                        <div class="input-box">
-                            <p><img src="view/images/diemdi.svg" alt="">Nơi Đi</p>
+            <div class="">
+                <div class="">
+                    <div class="">
+                        <div class="">
+                            <p></p>
                             <select class="niceSelect">
                                 <option value="0">Thanh Hóa</option>
                                 <option value="1">Chọn Điểm Đi</option>
@@ -28,10 +27,10 @@
                         </div>
                     </div>
 
-                    <div class="form-group me-2">
-                        <div class="input-box">
-                            <p> <img src="view/images/diemden.svg" alt="">Nơi Đến</p>
-                            <select class="niceSelect">
+                    <div class="">
+                        <div class="">
+                            <p> </p>
+                            <select class="">
                                 <option value="0">Nghệ An</option>
                                 <option value="1">Chọn Điểm Đến</option>
                                 <option value="2">Lai Châu</option>
@@ -44,15 +43,15 @@
                         </div>
                     </div>
 
-                    <div class="form-group me-2">
-                        <div class="input-box">
-                            <p> <img src="view/images/ngaydi.svg" alt="">Ngày Đi</p>
+                    <div class="">
+                        <div class="">
+                            <p> </p>
                             <input type="date" name="date">
                         </div>
                     </div>
 
-                    <div class="form-group mb-0 text-center">
-                        <a href="#" class="nir-btn w-100"><i class="fa fa-search mr-2"></i> Tìm Chuyến Đi</a>
+                    <div class="">
+                        <a href="#" class=""><i class=""></i> Tìm Chuyến Đi</a>
                     </div>
                 </div>
             </div>
@@ -61,16 +60,16 @@
 </div>
 
 
-<section class="trending pt-6 pb-0 bg-lgrey">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8">
-                <div class="list-results d-flex align-items-center justify-content-between">
-                    <div class="list-results-sort">
+<section class="">
+    <div class="">
+        <div class="">
+            <div class="">
+                <div class="n">
+                    <div class="">
                         <h3>Thanh Hóa -Nghệ An (2)</h3>
                     </div>
-                    <div class="click-menu d-flex align-items-center justify-content-between">
-                        <div class="sortby d-flex align-items-center justify-content-between ml-2">
+                    <div class="">
+                        <div class="">
                             <select class="niceSelect">
                                 <option value="1">Sắp Xếp Theo</option>
                                 <option value="2">Giá Từ Cao->Thấp</option>
@@ -82,62 +81,61 @@
                 </div>
 
 
-                <div class="flight-list">
-                    <div class="flight-full">
-                        <div class="item mb-2 border-all p-3 px-4 rounded">
-                            <div class="row d-flex align-items-center justify-content-between">
-                                <div class="col-lg-3 col-md-3 col-sm-12">
-                                    <div class="item-inner-image text-start">
-                                        <img src="View/images/flights/flight_grid_5.png" alt="image">
-                                        <h5 class="mb-0">Dragon Airlines</h5>
-                                        <small>Operated by China</small>
+                <div class="">
+
+                    <div class="">
+                        <div class="">
+                            <div class="">
+                                <div class="">
+                                    <div class="">
+                                        < <h5 class="mb-0">ABC</h5>
+
+
+                                            <small>Operated by China</small>
                                     </div>
                                 </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner">
-                                        <div class="content">
+                                <div class="">
+                                    <div class="">
+                                        <div class="">
                                             <h5 class="mb-0">Sunday May 15, 2022</h5>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner">
-                                        <div class="content">
-                                            <h3 class="mb-0">12:30</h3>
-                                            <p class="mb-0 text-uppercase">DAC</p>
+                                <div class="">
+                                    <div class="">
+                                        <div class="">
+                                            <h3 class="">12:30</h3>
+                                            <p class="">DAC</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner flight-time">
-                                        <p class="mb-0">16H 45M <br>2 Stops</p>
+                                <div class="">
+                                    <div class="">
+                                        <p class="">16H 45M <br>2 Stops</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-3 col-sm-12">
-                                    <div class="item-inner text-end">
-                                        <p class="theme2 fs-4 fw-bold">$2,045</p>
-                                        <a href="flight-detail.html" class="nir-btn-black">View Deals</a>
+                                <div class="">
+                                    <div class="">
+                                        <p class="">$2,045</p>
+                                        <a href="" class="">View Deals</a>
                                     </div>
                                 </div>
-                                <div class="col-lg-12">
-                                    <div class="accordion accordion-flush border-t mt-1 pt-1" id="accordionflush">
-                                        <div class="accordion-item overflow-hidden">
-                                            <p class="accordion-header" id="flush-headingOne">
-                                                <button class="accordion-button collapsed p-0 border-0 rounded-0"
-                                                    type="button" data-bs-toggle="collapse"
+                                <div class="">
+                                    <div class="">
+                                        <div class="">
+                                            <p class="" id="">
+                                                <button class="" type="button" data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                                     aria-controls="flush-collapseOne">
                                                     Xem Thông Tin Chi Tiết
                                                 </button>
                                             </p>
-                                            <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                                aria-labelledby="flush-headingOne"
+                                            <div id="" class="" aria-labelledby="flush-headingOne"
                                                 data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body p-0">
-                                                    <div class="row flight-detail-wrap align-items-center border-t pt-1 mt-1"
-                                                        style>
-                                                        <div class="col-lg-4">
-                                                            <div class="flight-date">
+                                                <div class="">
+                                                    <div class="" style>
+                                                        <div class="">
+                                                            <div class="">
                                                                 <ul>
                                                                     <li>Economy</li>
                                                                     <li>Thursday, Jun 16 - 23:20</li>
@@ -145,14 +143,13 @@
                                                                 </ul>
                                                             </div>
                                                         </div>
-                                                        <div class="col-lg-8">
-                                                            <div class="flight-detail-right">
-                                                                <h5><i class="fa fa-plane"></i> IST - Istanbul Airport,
+                                                        <div class="">
+                                                            <div class="">
+                                                                <h5><i class=""></i> IST - Istanbul Airport,
                                                                     Turkish</h5>
-                                                                <div
-                                                                    class="flight-detail-info d-flex align-items-center p-2 py-3 bg-grey rounded mb-2">
-                                                                    <img src="View/images/flights/flight_grid_3.png"
-                                                                        alt>
+                                                                <div class="">
+
+                                                                    alt>
                                                                     <ul>
                                                                         <li>Tpm Line</li>
                                                                         <li>Operated by Airlines</li>
@@ -174,60 +171,57 @@
                         </div>
 
 
-                        <div class="item mb-2 border-all p-3 px-4 rounded">
-                            <div class="row d-flex align-items-center justify-content-between">
-                                <div class="col-lg-3 col-md-3 col-sm-12">
-                                    <div class="item-inner-image text-start">
-                                        <img src="View/images/flights/flight_grid_5.png" alt="image">
-                                        <h5 class="mb-0">Dragon Airlines</h5>
+                        <div class="">
+                            <div class="">
+                                <div class="">
+                                    <div class="">
+
+                                        <h5 class="">Dragon Airlines</h5>
                                         <small>Operated by China</small>
                                     </div>
                                 </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner">
-                                        <div class="content">
-                                            <h5 class="mb-0">Sunday May 15, 2022</h5>
+                                <div class="">
+                                    <div class="">
+                                        <div class="">
+                                            <h5 class="">Sunday May 15, 2022</h5>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner">
-                                        <div class="content">
-                                            <h3 class="mb-0">12:30</h3>
-                                            <p class="mb-0 text-uppercase">DAC</p>
+                                <div class="">
+                                    <div class="">
+                                        <div class="">
+                                            <h3 class="">12:30</h3>
+                                            <p class="">DAC</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12">
-                                    <div class="item-inner flight-time">
-                                        <p class="mb-0">16H 45M <br>2 Stops</p>
+                                <div class="">
+                                    <div class="">
+                                        <p class="">16H 45M <br>2 Stops</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-3 col-sm-12">
-                                    <div class="item-inner text-end">
-                                        <p class="theme2 fs-4 fw-bold">$2,045</p>
-                                        <a href="flight-detail.html" class="nir-btn-black">View Deals</a>
+                                <div class="">
+                                    <div class="">
+                                        <p class="">$2,045</p>
+                                        <a href="" class="">View Deals</a>
                                     </div>
                                 </div>
-                                <div class="col-lg-12">
-                                    <div class="accordion accordion-flush border-t mt-1 pt-1" id="accordionflush6">
-                                        <div class="accordion-item overflow-hidden">
-                                            <p class="accordion-header" id="flush-headingOne6">
-                                                <button class="accordion-button collapsed p-0 border-0 rounded-0"
-                                                    type="button" data-bs-toggle="collapse"
+                                <div class="">
+                                    <div class="" id="6">
+                                        <div class="">
+                                            <p class="" id="">
+                                                <button class="" type="button" data-bs-toggle="collapse"
                                                     data-bs-target="#flush-collapseOne4" aria-expanded="false"
                                                     aria-controls="flush-collapseOne">
                                                     Xem Thông Tin Chi Tiết
                                                 </button>
                                             </p>
-                                            <div id="flush-collapseOne4" class="accordion-collapse collapse"
-                                                aria-labelledby="flush-headingOne6"
+                                            <div id="" class="" aria-labelledby="flush-headingOne6"
                                                 data-bs-parent="#accordionFlushExample">
-                                                <div class="accordion-body p-0">
-                                                    <div class="row flight-detail-wrap align-items-center border-t pt-1 mt-1"
-                                                        style>
-                                                        <div class="col-lg-4">
-                                                            <div class="flight-date">
+                                                <div class="">
+                                                    <div class="" style>
+                                                        <div class="">
+                                                            <div class="">
                                                                 <ul>
                                                                     <li>Economy</li>
                                                                     <li>Thursday, Jun 16 - 23:20</li>
@@ -237,14 +231,13 @@
                                                         </div>
 
                                                         xem chi tiét
-                                                        <div class="col-lg-8">
-                                                            <div class="flight-detail-right">
-                                                                <h5><i class="fa fa-plane"></i> IST - Istanbul Airport,
+                                                        <div class="">
+                                                            <div class="">
+                                                                <h5><i class=""></i> IST - Istanbul Airport,
                                                                     Turkish</h5>
-                                                                <div
-                                                                    class="flight-detail-info d-flex align-items-center p-2 py-3 bg-grey rounded mb-2">
-                                                                    <img src="View/images/flights/flight_grid_3.png"
-                                                                        alt>
+                                                                <div class="">
+
+                                                                    alt>
                                                                     <ul>
                                                                         <li>Tpm Line</li>
                                                                         <li>Operated by Airlines</li>
@@ -253,7 +246,7 @@
                                                                         <li>Adult(s): 25KG luggage free</li>
                                                                     </ul>
                                                                 </div>
-                                                                <h5 class="mb-0">DXB - Dubai, United Arab Emirates</h5>
+                                                                <h5 class="">DXB - Dubai, United Arab Emirates</h5>
                                                             </div>
                                                         </div>
                                                         /
@@ -267,23 +260,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flight-btn text-center"><a href="flight-grid.html" class="nir-btn">Load More</a></div>
+                    <div class=""><a href="" class="">Load More</a></div>
                 </div>
 
             </div>
-            <div class="col-lg-4 ps-lg-4">
-                <div class="sidebar-sticky">
-                    <div class="list-sidebar">
+            <div class="4">
+                <div class="">
+                    <div class="">
 
                         <h3>Bộ Lọc Tìm Kiếm</h3>
-                        <span class="float-end">
-                            <a>Bỏ Lọc <img class="iconxoa" src="View/images/xoa.png" alt="">
+                        <span class="">
+                            <a>Bỏ Lọc
                             </a>
                         </span>
 
-                        <div class="sidebar-item mb-4">
+                        <div class="">
                             <h5 class>Giờ Đi</h5>
-                            <ul class="sidebar-category1">
+                            <ul class="">
                                 <li><input type="checkbox"> Sáng sớm 00:00 - 06:00 (0)
                                 </li>
                                 <li><input type="checkbox"> Buổi Sáng 06:00 - 12:00 (0)
@@ -291,7 +284,7 @@
                                 <li><input type="checkbox"> Buổi Tối 18:00 - 24:00 (2)
                             </ul>
                         </div>
-                        <div class="sidebar-item mb-4">
+                        <div class="">
                             <h3 class>Loại Xe</h3>
                             <ul>
                                 <li class="loaixe">
@@ -304,9 +297,9 @@
                             </ul>
                         </div>
 
-                        <div class="sidebar-item mb-4">
+                        <div class="">
                             <h3 class>Hàng Chế</h3>
-                            <ul class="sidebar-category1">
+                            <ul class="">
                                 <div>
                                     <button>Hàng Đầu</button>
                                     <button>Hàng Giữa</button>
@@ -315,9 +308,9 @@
                             </ul>
                         </div>
 
-                        <div class="sidebar-item mb-4">
+                        <div class="">
                             <h3 class>Tầng</h3>
-                            <ul class="sidebar-category1">
+                            <ul class="">
                                 <div>
                                     <button>Ghế</button>
                                     <button>Giường</button>

@@ -39,4 +39,15 @@ function updateve($id,$name,$image,$gia,$idloaive){
     $stmt = $conn->prepare($sql);
     $stmt->execute();
 }
+
+function getnew_ve(){
+    $conn = connectdb();
+    $sql = "SELECT * FROM ve ORDER BY id DESC";
+    $stmt = $conn->prepare($sql);
+    $stmt->execute();
+    $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
+    $arrve = $stmt->fetchAll(); 
+    $conn = null;
+    return $arrve;
+}
 ?>

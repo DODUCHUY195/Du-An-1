@@ -1,20 +1,31 @@
 <?php
+include_once "admin/model/connectdb.php";
+include_once "admin/model/ve.php";
+//$newVe = getnew_ve();
+//echo var_dump($newVe);
+//connectdb();
+include "View/header.php";
+if(isset($_GET['act'])){
+        switch ($_GET['act']) {
 
-    include "View/header.php";
-if(isset($_GET ["quanly"])){
-    $temp = $_GET["quanly"];
-}else{
-    $temp = '';
+        case 'trangchu':
+        include "View/trangchu.php";
+        break;
+        
+        case 'th-na':
+        include "View/chuyenxeth-na.php";
+        break;
+
+        case 'dangnhap':
+        include "Admin/view/login.php";
+        break;
+
+        default:
+        include_once "view/home.php";
 }
-
-if($temp == 'trangchu'){
-    include "View/trangchu.php";
-}else if($temp == 'th-na'){
-    include "View/chuyenxeth-na.php";
-}else if($temp == 'dangnhap'){
-    include "Admin/view/login.php";
 }
 else{
+    
     include "View/home.php";
 }
 
