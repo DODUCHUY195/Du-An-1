@@ -1,19 +1,15 @@
 <div>
-    <h2>Cap Nhat Danh Muc</h2>
-    <?php
-    //echo var_dump($kq1);
-    ?>
-    <form action="index.php?act=updatedm" method="post">
-        <input type="text" name="name" id="" value="<?=$kq1[0]['name']?>">
-        <input type="hidden" name="id" value="<?=$kq1[0]['id']?>">
-        <input type="submit" name="capnhat" value="Cap Nhat">
+    <h2>Danh Muc</h2>
+    <form action="index.php?act=add" method="post">
+        <input type="text" name="name" id="">
+        <input type="submit" name="themmoi" value="Them Moi">
     </form>
     <br>
 
     <table>
         <tr>
             <th>STT </th>
-            <th>Ten Ve </th>
+            <th>Ten Loai Ve </th>
             <th>Uu Tien </th>
             <th>Hien Thi</th>
             <th>Hanh Dong </th>

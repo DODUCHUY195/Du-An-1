@@ -2,11 +2,38 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="view/style.css">
-    <title>Thêm Vé Xe</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin</title>
+
+
 </head>
 
 <body>
+    <header>
+        <h2>Admin</h2>
+        <div class="">
+
+
+            <nav class="">
+
+                <ul class="">
+
+                    <li>
+                        <a href="index.php" class="">Trang Chủ</a>
+                    </li>
+
+                    <li>
+                        <a href="index.php?act=danhmuc" class="">Danh Mục Loại Vé</a>
+                    </li>
+
+                    <li>
+                        <a href="index.php?act=ve" class="">Quản Lý Vé</a>
+                    </li>
+                </ul>
+
+
+
+            </nav>
+
+    </header>

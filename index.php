@@ -11,8 +11,8 @@ if($temp == 'trangchu'){
     include "View/trangchu.php";
 }else if($temp == 'th-na'){
     include "View/chuyenxeth-na.php";
-}else if($temp == 'admin'){
-    include "indexAdmin.php";
+}else if($temp == 'dangnhap'){
+    include "Admin/view/login.php";
 }
 else{
     include "View/home.php";

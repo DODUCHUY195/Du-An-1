@@ -71,7 +71,15 @@
 
                                 <li><a href="index.php?quanly=contact" class="dropdown-toggle">Liên Hệ</a></li>
 
-                                <li><a href="index.php?quanly=admin" class="dropdown-toggle">Admin</a></li>
+                                <li class="dropdown submenu active">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false">Admin<i class="icon-arrow-down"
+                                            aria-hidden="true"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="index.php?quanly=dangnhap">Đăng Nhập</a></li>
+                                        <li><a href="index.php?quanly=thoat">Thoat</a></li>
+                                    </ul>
+                                </li>
 
                         </div>
 
