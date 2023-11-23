@@ -81,8 +81,7 @@
                             <a href="index.php?act=th-na"><img src="view/images/content1.png" alt="image" class></a>
                         </div>
                         <div class="trend-content p-4 pt-5 position-relative">
-                            <h5 class="theme mb-1"><i class="flaticon-location-pin"></i> <a
-                                    href="index.php?act=th-na">Thanh Hóa - Nghệ An
+                            <h5 class="theme mb-1"><i class="flaticon-location-pin"></i> <a href="#">Thanh Hóa - Nghệ An
                                 </a></h5>
                             <div class="entry-meta">
                                 <div class="entry-author d-flex align-items-center">
