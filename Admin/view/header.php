@@ -10,24 +10,24 @@
 
 <body>
     <header>
-        <h2>Admin</h2>
-        <div class="">
+        <h2 class="title">Admin</h2>
+        <div>
 
 
-            <nav class="">
+            <nav>
 
-                <ul class="">
+                <ul>
 
-                    <li>
+                    <li class="homebt">
                         <a href="index.php" class="">Trang Chủ</a>
                     </li>
 
                     <li>
-                        <a href="index.php?act=danhmuc" class="">Danh Mục Loại Vé</a>
+                        <a class="listbt" href="index.php?act=danhmuc" class="">Danh Mục Loại Vé</a>
                     </li>
 
                     <li>
-                        <a href="index.php?act=ve" class="">Quản Lý Vé</a>
+                        <a ticketbt href="index.php?act=ve" class="">Quản Lý Vé</a>
                     </li>
                 </ul>
 

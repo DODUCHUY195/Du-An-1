@@ -1,3 +1,106 @@
-h2{
-    background-color: aqua;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: white;
+}
+.title{
+    
+    color: orangered;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+nav{
+    background-color: gainsboro;
+    text-align: center;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+nav ul li{
+    display: flex;
+    display: inline;
+    padding: 20px;
+    border-radius: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: brown;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:hover{
+    color: rgb(255, 109, 47);
+}
+.homebt{
+    background-color: white;
+}
+.dm{
+    background-color: gainsboro;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.bodyDm{
+    margin-left: 50px;
+    padding: 25px;
+}
+.iptext{
+    border-radius: 5px;
+    border-color: brown;
+    height: 25px;
+}
+.ipbt{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: orangered;
+    border-color: brown;
+    border-radius: 5px;
+    height: 28px;
+}
+.iptext:hover{
+    border-color: orangered;
+}
+.ipbt:hover{
+    border-color: orangered;
+}
+.tb{
+    color: black;
+    border-color: orangered;
+}
+.sua{
+    text-decoration: none;
+    color: black;
+}
+.xoa{
+    text-decoration: none;
+    color: black;
+}
+.bodyve{
+    margin-left: 50px;
+}
+.ve{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 25px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+}
+.formtm{
+    display: grid;
+    grid-template-columns: 300px
+}
+.tbve{
+    
 }

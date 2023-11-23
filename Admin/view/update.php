@@ -10,7 +10,7 @@
     </form>
     <br>
 
-    <table>
+    <table >
         <tr>
             <th>STT </th>
             <th>Ten Ve </th>
@@ -20,7 +20,7 @@
         </tr>
         <?php
     //var_dump($kq);
-?>
+    ?>
 
         <?php if(isset($kq)&&(count($kq)>0)){
         $i=1;
@@ -33,8 +33,8 @@
             <td> <a href="index.php?act=updatedm&id='.$dm['id'].'">Sua</a> | <a href="index.php?act=delete&id='.$dm['id'].'">Xoa</a></td>
         </tr>';
         $i++;
+            }
         }
-}
-?>
+        ?>
     </table>
 </div>

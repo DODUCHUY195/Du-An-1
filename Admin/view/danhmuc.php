@@ -1,12 +1,12 @@
-<div>
-    <h2>Danh Muc</h2>
+<div class="bodyDm">
+    <h2 class="dm">Danh Muc</h2>
     <form action="index.php?act=add" method="post">
-        <input type="text" name="name" id="">
-        <input type="submit" name="themmoi" value="Them Moi">
+        <input class="iptext" type="text" name="name" id="">
+        <input class="ipbt" type="submit" name="themmoi" value="Them Moi">
     </form>
     <br>
 
-    <table>
+    <table class="tb" border="solid 1px ">
         <tr>
             <th>STT </th>
             <th>Ten Loai Ve </th>
@@ -26,7 +26,7 @@
             <td>'.$dm['name'].'</td>
             <td>'.$dm['uutien'].'</td>
             <td>'.$dm['hienthi'].'</td>
-            <td> <a href="index.php?act=updatedm&id='.$dm['id'].'">Sua</a> | <a href="index.php?act=delete&id='.$dm['id'].'">Xoa</a></td>
+            <td> <a class="sua" href="index.php?act=updatedm&id='.$dm['id'].'">Sua</a> | <a class="xoa" href="index.php?act=delete&id='.$dm['id'].'">Xoa</a></td>
         </tr>';
         $i++;
         }

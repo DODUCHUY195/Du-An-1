@@ -1,6 +1,6 @@
-<div>
-    <h2>Ve</h2>
-    <form action="index.php?act=ve_add" method="post" enctype="multipart/form-data">
+<div class="bodyve">
+    <h2 class="ve">Ve</h2>
+    <form class="formtm" action="index.php?act=ve_add" method="post" enctype="multipart/form-data">
         <select name="idloaive" id="">
             <option value="0">Chon Ve</option>
             <?php
@@ -23,7 +23,7 @@
     </form>
     <br>
 
-    <table>
+    <table class="tbve" border="1">
         <tr>
             <th>STT </th>
             <th>Ten Ve </th>
@@ -44,7 +44,7 @@
             <td>'.$item['name'].'</td>
             <td><img src="'.$item['image'].'" width="80px"></td>
             <td>'.$item['gia'].'</td>
-            <td> <a href="index.php?act=ve_update&id='.$item['id'].'">Sua</a> | <a href="index.php?act=delete_ve&id='.$item['id'].'">Xoa</a></td>
+            <td> <a class="sua" href="index.php?act=ve_update&id='.$item['id'].'">Sua</a> | <a class="xoa" href="index.php?act=delete_ve&id='.$item['id'].'">Xoa</a></td>
         </tr>';
         $i++;
         }
