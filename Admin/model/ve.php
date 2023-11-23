@@ -1,7 +1,10 @@
 <?php
-function getall_ve(){
+function getall_ve($idloaive=0,$kyw=""){
     $conn = connectdb();
-    $stmt = $conn->prepare("SELECT * FROM ve");
+    $sql = "SELECT * FROM ve WHERE 1";
+    if($idloaive>0) $sql.=" AND idloaive =".$idloaive; 
+    if($kyw!="") $sql.=" AND name like '%".$idloaive."%'";
+    $stmt = $conn->prepare($sql);
     $stmt ->execute();
     $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
     $kq = $stmt->fetchAll();
@@ -40,14 +43,16 @@ function updateve($id,$name,$image,$gia,$idloaive){
     $stmt->execute();
 }
 
-function getnew_ve(){
-    $conn = connectdb();
-    $sql = "SELECT * FROM ve ORDER BY id DESC";
-    $stmt = $conn->prepare($sql);
-    $stmt->execute();
-    $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
-    $arrve = $stmt->fetchAll(); 
-    $conn = null;
-    return $arrve;
-}
+// function getnew_ve(){
+//     $conn = connectdb();
+//     $sql = "SELECT * FROM ve ORDER BY id DESC";
+//     $stmt = $conn->prepare($sql);
+//     $stmt->execute();
+//     $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
+//     $arrve = $stmt->fetchAll(); 
+//     $conn = null;
+//     return $arrve;
+// }
+
+
 ?>

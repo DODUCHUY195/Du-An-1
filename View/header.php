@@ -42,7 +42,6 @@
                             <a class="navbar-brand" href="index.php?act=trangchu">
 
                                 <img class="anh" src="View/images/logoo.png" alt="image">
-
                             </a>
                         </div>
 
@@ -64,13 +63,16 @@
                                 </li>
 
                                 <li class="dropdown submenu active">
-                                    <a href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                        aria-haspopup="true" aria-expanded="false">Loại Vé <i class="icon-arrow-down"
-                                            aria-hidden="true"></i></a>
+                                    <a href="index.php?act=chitietve" class="dropdown-toggle">Loại Vé <i></i></a>
 
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">a</a></li>
-                                        <li><a href="#">b</a></li>
+                                        <?php
+                                            foreach($dsve as $dm){
+                                                echo '<li><a href="index.php?act=chitietve&id='.$dm['id'].'">'.$dm['name'].'</a></li>';
+                                            }
+                                        ?>
+                                        <!-- <li><a href="#">a</a></li>
+                                        <li><a href="#">b</a></li> -->
                                     </ul>
 
                                 </li>

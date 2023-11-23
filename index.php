@@ -1,6 +1,9 @@
 <?php
-include_once "admin/model/connectdb.php";
-include_once "admin/model/ve.php";
+include "admin/model/connectdb.php";
+include "admin/model/ve.php";
+include "admin/model/danhmuc.php";
+include "admin/model/chitiet.php";
+$dsve = getall();
 //$newVe = getnew_ve();
 //echo var_dump($newVe);
 //connectdb();
@@ -12,21 +15,35 @@ if(isset($_GET['act'])){
         include "View/trangchu.php";
         break;
         
-        case 'th-na':
-        include "View/chuyenxeth-na.php";
+        
+        case 'chitietve':
+        if(isset($_GET['id']) && ($_GET['id']>0)){
+            $id = $_GET['id'];
+        }
+        $dsct = getall_ve($id,"");
+        include "View/chitietve.php";
         break;
 
-        case 'dangnhap':
-        include "Admin/view/login.php";
-        break;
 
-        default:
-        include_once "view/home.php";
+        case 'chonchuyen';
+        
+   
+    
+
+if(isset($_GET['id']) && ($_GET['id']>0)){
+$id = $_GET['id'];
+}
+$dsct = getall_ct($id);
+
+include "View/chonchuyen.php";
+
+default:
+include "view/home.php";
 }
 }
 else{
-    
-    include "View/home.php";
+
+include "View/home.php";
 }
 
 include "View/footer.php";

@@ -2,7 +2,7 @@
     <h2>Ve</h2>
     <form action="index.php?act=ve_add" method="post" enctype="multipart/form-data">
         <select name="idloaive" id="">
-            <option value="0">Chon Ve</option>
+            <option value="0">Chọn Loại Vé </option>
             <?php
                 if(isset($dsve)){
                     foreach($dsve as $dm){

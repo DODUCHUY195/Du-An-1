@@ -13,13 +13,12 @@
         <h2>Admin</h2>
         <div class="">
 
-
             <nav class="">
 
                 <ul class="">
 
                     <li>
-                        <a href="index.php" class="">Trang Chủ</a>
+                        <a href="index.php?act=trangchu" class="">Trang Chủ</a>
                     </li>
 
                     <li>
@@ -29,6 +28,11 @@
                     <li>
                         <a href="index.php?act=ve" class="">Quản Lý Vé</a>
                     </li>
+
+                    <li>
+                        <a href="index.php?act=chitiet" class="">Quản Lý Chi Tiết Vé</a>
+                    </li>
+
                 </ul>
 
 

@@ -4,6 +4,7 @@
     include "model/connectdb.php";
     include "model/danhmuc.php";
     include "model/ve.php";
+    include "model/chitiet.php";
     //connectdb();
     include "view/header.php";
     if(isset($_GET['act'])){
@@ -92,6 +93,54 @@
                     $kq = getall_ve();
                     include "view/updateve.php";
                     break;
+
+                
+                case 'chitiet':
+                $kq = getall_ct();
+                include "view/chitiet.php";
+                break;
+
+                 case 'ct_add':
+                    if(isset($_POST['themmoi'])&&($_POST['themmoi'])){
+                    
+                    $gio_di = $_POST['gio_di'];
+                    $gio_den = $_POST['gio_den'];
+                    $diem_di = $_POST['diem_di'];
+                    $diem_den = $_POST['diem_den'];
+                    insert_ct($gio_di,$gio_den,$diem_di,$diem_den);
+                    } 
+                    
+                    $kq = getall_ct();
+                    include "view/chitiet.php";
+                    break;
+
+                case 'ct_update':
+                    if(isset($_GET['id'])){
+                    $id = $_GET['id'];
+                    $kq1 = getone_ct($id);
+                    $kq=getall_ct();
+                    include "view/updatect.php";
+                }  if(isset($_POST['id'])){
+                    $id = $_POST['id'];
+                    $gio_di = $_POST['gio_di'];
+                    $gio_den = $_POST['gio_den'];
+                    $diem_di = $_POST['diem_di'];
+                    $diem_den = $_POST['diem_den'];
+                    updatect($id,$gio_di,$gio_den,$diem_di,$diem_den);
+                    $kq=getall_ct();
+                    include "view/chitiet.php";
+                }
+                    break;
+   
+                
+                 case 'delete_ct':
+                if(isset($_GET['id'])){
+                    $id = $_GET['id'];
+                    delete_ct($id);
+                }
+                $kq=getall_ct();
+                include "view/chitiet.php";
+                break;    
 
                 case 'capnhat':
                     $dsve = getall();
