@@ -11,6 +11,20 @@
                 }
             ?>
         </select>
+        <br>
+        <br>
+        <select name="id_ve" id="">
+            <option value="0">Chọn Vé</option>
+            <?php
+                if(isset($kq2)){
+                    foreach($kq2 as $ct){
+                        echo '<option value="'.$ct['id'].'">'.$ct['name'].'</option>';
+                    }
+                }
+            ?>
+        </select>
+        <br>
+        <br>
         Gio Di<input type="text" name="gio_di" id="">
         Gio Den<input type="text" name="gio_den" id="">
         Diem Di<input type="text" name="diem_di" id="">

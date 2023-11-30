@@ -1,0 +1,39 @@
+body, h1, h2, label, input {
+  margin: 0;
+  padding: 0;
+}
+
+.containe {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.pickup-dropoff {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.pickup, .dropoff {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+button{
+    width: 30%;
+    margin-left: 60px;
+}
+

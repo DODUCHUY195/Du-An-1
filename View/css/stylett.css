@@ -1,0 +1,72 @@
+body, h1, h2, label, input, span {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.containertt {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.order-summary,
+.payment-details {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  flex: 1;
+  margin-right: 20px;
+}
+
+.product,
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.payment-form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.ttt{
+  margin-left: 63px;
+}
+
+.btn-t{
+  width: 55%;
+}

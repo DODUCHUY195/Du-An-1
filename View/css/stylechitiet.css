@@ -1,0 +1,46 @@
+.containerrr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 25%;
+  padding: 20px;
+  margin: 20px;
+  height: 100%;
+  /* Thêm các tùy chỉnh khác nếu cần */
+  margin-left: 50px;
+  background-color: aquamarine;
+  border-radius: 25px;
+}
+
+.results {
+  width: 70%;
+  /* Thêm các tùy chỉnh khác nếu cần */
+}
+
+.item {
+  margin-bottom: 20px;
+  /* Thêm các tùy chỉnh khác nếu cần */
+}
+
+/* CSS cho các phần ticket */
+.ticket {
+    
+  display: flex;
+  margin-bottom: 30px;
+  
+  background-color: aquamarine;
+  /* Thêm các tùy chỉnh khác nếu cần */
+}
+
+.ticket img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  /* Thêm các tùy chỉnh khác nếu cần */
+}
+
+div.ticket-info{
+    margin-bottom: 100px;
+}

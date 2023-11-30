@@ -1,34 +1,30 @@
-<?php
-    foreach($dsct as $ct){
-        echo '
-<div>
-    <ul>
-        <li>
-            <h2>Gio Di</h2>
-            <p>'.$ct['gio_di'].'</p>
-            
-        </li>
-
-        <li>
-            <h2>Gio Den</h2>
-           <p>'.$ct['gio_den'].'</p>
-            
-        </li>
-
-        <li>
-            <h2>Diem Di</h2>
-             <p>'.$ct['diem_di'].'</p>
-        </li>
-
-        <li>
-            <h2>Diem Den</h2>
-             <p>'.$ct['diem_den'].'</p>
-        </li>
-    </ul>
-
-</div>';
-
-    }
+ <?php
+                        foreach($dstt as $ct){
+                            echo '
+                             <main class="containe">
+    <section class="pickup-dropoff">
+      <div class="pickup">
+        <h2>Điểm đón</h2>
+        <label>
+          <input type="radio" name="pickup" value="123 ABC Street " checked>
+          Giờ đi: '.$ct['gio_di'].'
+          Địa chỉ: '.$ct['diem_di'].'
+        </label>
     
+      </div>
 
+      <div class="dropoff">
+        <h2>Điểm trả</h2>
+        <label>
+          <input type="radio" name="pickup-add" value="123 ABC Street">
+          Giờ đến: '.$ct['gio_den'].'
+          Địa chỉ: '.$ct['diem_den'].'
+        </label>
+        
+      </div>
+    </section>
+    <a href="index.php?act=nhapthongtin"><button type="submit">Tiếp Tục</button></a>
+    <a href="index.php?act=chitietve"><button type="submit">Quay Lại</button></a>
+  </main>
+                            ';}
 ?>

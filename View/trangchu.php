@@ -7,7 +7,7 @@
             <div class="col-lg-2 p-0">
                 <h4
                     class="form-title form-title1 text-center p-4 py-5 white bg-theme mb-0 rounded-start d-lg-flex align-items-center">
-                    <i class="icon-location-pin fs-1 me-1"></i> Find
+                    Find
                 </h4>
             </div>
             <div class="col-lg-10 px-4">
@@ -53,7 +53,9 @@
                     </div>
 
                     <div class="form-group mb-0 text-center">
-                        <a href="#" class="nir-btn w-100"><i class="fa fa-search mr-2"></i> Tìm Chuyến Đi</a>
+                        <a href="index.php?act=chitietve" class="nir-btn w-100"><i class="fa fa-search mr-2"></i> Tìm
+                            Chuyến
+                            Đi</a>
                     </div>
                 </div>
             </div>
@@ -82,7 +84,7 @@
                         </div>
                         <div class="trend-content p-4 pt-5 position-relative">
                             <h5 class="theme mb-1"><i class="flaticon-location-pin"></i> <a
-                                    href="index.php?quanly=th-na">Thanh Hóa - Nghệ
+                                    href="index.php?act=chitietve">Thanh Hóa - Nghệ
                                     An</a></h5>
                             <div class="entry-meta">
                                 <div class="entry-author d-flex align-items-center">

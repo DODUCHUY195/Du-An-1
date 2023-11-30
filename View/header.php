@@ -18,6 +18,16 @@
 
     <link href="view/css/plugin.css" rel="stylesheet" type="text/css">
 
+    <link href="view/css/stylect.css" rel="stylesheet" type="text/css">
+
+    <link href="view/css/stylechitiet.css" rel="stylesheet" type="text/css">
+
+    <link href="view/css/stylecc.css" rel="stylesheet" type="text/css">
+
+    <link href="view/css/stylentt.css" rel="stylesheet" type="text/css">
+
+    <link href="view/css/stylett.css" rel="stylesheet" type="text/css">
+
     <link rel="stylesheet"
         href="view/../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="view/../../../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
@@ -53,9 +63,7 @@
                                 <li><a href="index.php?act=trangchu" class="dropdown-toggle">Trang Chủ</a></li>
 
                                 <li class="dropdown submenu active">
-                                    <a href="index.php" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                        aria-haspopup="true" aria-expanded="false">Xe <i class="icon-arrow-down"
-                                            aria-hidden="true"></i></a>
+                                    <a href="index.php" class="dropdown-toggle">Xe </a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#">Xe Giường Nằm</a></li>
                                         <li><a href="#">Xe Limousine</a></li>
@@ -79,7 +87,7 @@
 
                                 <li><a href="#" class="dropdown-toggle">Tra Cứu Vé</a></li>
 
-                                <li><a href="#" class="dropdown-toggle">Tra Cứu Hóa Đơn</a></li>
+                                <li><a href="#" class="dropdown-toggle">Đơn Hàng Của Tôi</a></li>
 
                                 <li><a href="index.php?act=about" class="dropdown-toggle">Về Chúng Tôi</a></li>
 

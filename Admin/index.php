@@ -96,21 +96,25 @@
 
                 
                 case 'chitiet':
+                $dsve = getall();
                 $kq = getall_ct();
+                $kq2 = getall_ve();
                 include "view/chitiet.php";
                 break;
 
                  case 'ct_add':
                     if(isset($_POST['themmoi'])&&($_POST['themmoi'])){
-                    
+                    $id_ve = $_POST['id_ve'];
+                    $idloaive = $_POST['idloaive'];
                     $gio_di = $_POST['gio_di'];
                     $gio_den = $_POST['gio_den'];
                     $diem_di = $_POST['diem_di'];
                     $diem_den = $_POST['diem_den'];
-                    insert_ct($gio_di,$gio_den,$diem_di,$diem_den);
+                    insert_ct($id_ve,$idloaive,$gio_di,$gio_den,$diem_di,$diem_den);
                     } 
-                    
+                    $dsve = getall();
                     $kq = getall_ct();
+                    $kq2 = getall_ve();
                     include "view/chitiet.php";
                     break;
 
@@ -122,11 +126,12 @@
                     include "view/updatect.php";
                 }  if(isset($_POST['id'])){
                     $id = $_POST['id'];
+                    $idloaive = $_POST['idloaive'];
                     $gio_di = $_POST['gio_di'];
                     $gio_den = $_POST['gio_den'];
                     $diem_di = $_POST['diem_di'];
                     $diem_den = $_POST['diem_den'];
-                    updatect($id,$gio_di,$gio_den,$diem_di,$diem_den);
+                    updatect($id,$idloaive,$gio_di,$gio_den,$diem_di,$diem_den);
                     $kq=getall_ct();
                     include "view/chitiet.php";
                 }
@@ -167,6 +172,24 @@
                     }
                     updateve($id,$name,$image,$gia,$idloaive);
                     }
+                    $kq = getall_ve();
+                    include "view/ve.php";
+                    break;
+
+                case 'capnhatct':
+                    $dsve = getall();
+                    if(isset($_POST['capnhat']) &&($_POST['capnhat'])){
+                    $idloaive = $_POST['idloaive'];
+                    $id = $_POST['id'];
+                    $id_ve = $_POST['id_ve'];
+                    $gio_di = $_POST['gio_di'];
+                    $gio_den = $_POST['gio_den'];
+                    $diem_di = $_POST['diem_di'];
+                    $diem_den = $_POST['diem_den'];
+                    
+                    updatect($id,$idloaive,$id_ve,$gio_di,$gio_den,$diem_di,$diem_den);
+                    }
+                    $kq2 = getall_ct();
                     $kq = getall_ve();
                     include "view/ve.php";
                     break;

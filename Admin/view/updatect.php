@@ -3,12 +3,44 @@
     <?php
     //echo var_dump($kq1);
     ?>
-    <form action="index.php?act=ct_update" method="post">
-        Gio di<input type="text" name="gio_di" id="" value="<?=$kq1[0]['gio_di']?>">
-        Gio den<input type="text" name="gio_den" id="" value="<?=$kq1[0]['gio_den']?>">
-        Diem di<input type="text" name="diem_di" id="" value="<?=$kq1[0]['diem_di']?>">
-        Diem den<input type="text" name="diem_den" id="" value="<?=$kq1[0]['diem_den']?>">
-        <input type="hidden" name="id" value="<?=$kq1[0]['id']?>">
+    <form action="index.php?act=capnhatct" method="post">
+
+        <select name="idloaive" id="">
+            <option value="0">Chon Loai Ve</option>
+            <?php
+            $idloaivegan=$vect[0]['idloaive'];
+                if(isset($dsve)){
+                    foreach($dsve as $dm){
+                        if($dm['id'] == $idloaivegan)
+                        echo '<option value="'.$dm['id'].'" selected>'.$dm['name'].'</option>';
+                        else
+                        echo '<option value="'.$dm['id'].'">'.$dm['name'].'</option>';
+                    }
+                }
+            ?>
+        </select>
+        <br>
+        <br>
+        <select name="id_ve" id="">
+            <option value="0">Chon Ve</option>
+            <?php
+            $idloaivee=$kq1[0]['id_ve'];
+                if(isset($dsve)){
+                    foreach($dsve as $dm){
+                        if($dm['id'] == $idloaivee)
+                        echo '<option value="'.$dm['id'].'" selected>'.$dm['name'].'</option>';
+                        else
+                        echo '<option value="'.$dm['id'].'">'.$dm['name'].'</option>';
+                    }
+                }
+            ?>
+        </select>
+        <br>
+        Gio di<input type="text" name="gio_di" id="" value="<?=$kq[0]['gio_di']?>">
+        Gio den<input type="text" name="gio_den" id="" value="<?=$kq[0]['gio_den']?>">
+        Diem di<input type="text" name="diem_di" id="" value="<?=$kq[0]['diem_di']?>">
+        Diem den<input type="text" name="diem_den" id="" value="<?=$kq[0]['diem_den']?>">
+        <input type="hidden" name="id" value="<?=$kq[0]['id']?>">
         <input type="submit" name="capnhat" value="Cap Nhat">
     </form>
     <br>

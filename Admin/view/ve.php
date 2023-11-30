@@ -1,6 +1,6 @@
-<div>
-    <h2>Ve</h2>
-    <form action="index.php?act=ve_add" method="post" enctype="multipart/form-data">
+<div class="bodyve">
+    <h2 class="ve">Ve</h2>
+    <form class="formtm" action="index.php?act=ve_add" method="post" enctype="multipart/form-data">
         <select name="idloaive" id="">
             <option value="0">Chọn Loại Vé </option>
             <?php
@@ -11,19 +11,24 @@
                 }
             ?>
         </select>
-        <input type="text" name="name" id="">
-        <input type="file" name="hinh" id="">
+
+        <br>
+        <input type="text" name="name" class="ipve">
+        <br>
+        <input type="file" name="hinh" class="iphinh">
+        <br>
         <?php
             if(isset($uploadOk)&&($uploadOk==0)){
                 echo "Yeu Cau Nhap Dung Dinh Dang";
             }
         ?>
-        <input type="text" name="gia" id="">
+        <input type="text" name="gia" class="ipve">
+        <br>
         <input type="submit" name="themmoi" value="Them Moi">
     </form>
     <br>
 
-    <table>
+    <table class="tbve">
         <tr>
             <th>STT </th>
             <th>Ten Ve </th>
@@ -44,7 +49,7 @@
             <td>'.$item['name'].'</td>
             <td><img src="'.$item['image'].'" width="80px"></td>
             <td>'.$item['gia'].'</td>
-            <td> <a href="index.php?act=ve_update&id='.$item['id'].'">Sua</a> | <a href="index.php?act=delete_ve&id='.$item['id'].'">Xoa</a></td>
+            <td> <a class="sua" href="index.php?act=ve_update&id='.$item['id'].'">Sua</a> | <a class="xoa" href="index.php?act=delete_ve&id='.$item['id'].'">Xoa</a></td>
         </tr>';
         $i++;
         }
