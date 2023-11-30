@@ -27,6 +27,7 @@
 
 </head>
 
+<<<<<<< HEAD
 <body id="page-top">
 
     <!-- Page Wrapper -->
@@ -52,6 +53,38 @@
                     <i class="fas fa-fw fa-house-damage"></i>
                     <span>Home</span>
             </li>
+=======
+<body>
+    <header>
+        <h2 class="title">Admin</h2>
+        <div>
+
+<<<<<<< HEAD
+
+            <nav>
+=======
+            <nav class="">
+>>>>>>> 542f0f44a1f7f5185ae4e41b2b428c39bd26b01c
+
+                <ul>
+
+<<<<<<< HEAD
+                    <li class="homebt">
+                        <a href="index.php" class="">Trang Chủ</a>
+=======
+                    <li>
+                        <a href="index.php?act=trangchu" class="">Trang Chủ</a>
+>>>>>>> 542f0f44a1f7f5185ae4e41b2b428c39bd26b01c
+                    </li>
+
+                    <li>
+                        <a class="listbt" href="index.php?act=danhmuc" class="">Danh Mục Loại Vé</a>
+                    </li>
+
+                    <li>
+                        <a ticketbt href="index.php?act=ve" class="">Quản Lý Vé</a>
+                    </li>
+>>>>>>> d5fb5fae0772e6b37e4134929b2e3feb2f24928c
 
             <!-- Divider -->
             <hr class="sidebar-divider">

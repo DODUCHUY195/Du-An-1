@@ -1,11 +1,17 @@
+<<<<<<< HEAD
  <!-- Begin Page Content -->
  <div class="container-fluid">
+=======
+<!-- Content Wrapper. Contains page content -->
+<!-- <div class="content-wrapper">
+>>>>>>> d5fb5fae0772e6b37e4134929b2e3feb2f24928c
 
 <!-- Page Heading -->
 <div class="d-sm-flex align-items-center justify-content-between mb-4">
     <h1 class="h3 mb-0 text-gray-800">Trang chủ quản trị</h1>
 </div>
 
+<<<<<<< HEAD
 <!-- Content Row -->
 <div class="row">
 
@@ -87,3 +93,7 @@
 </div>
 </div>
 <!-- /.container-fluid -->
+=======
+    <h2>Thong Ke</h2>
+</div> -->
+>>>>>>> d5fb5fae0772e6b37e4134929b2e3feb2f24928c
