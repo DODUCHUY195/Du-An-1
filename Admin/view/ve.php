@@ -28,11 +28,7 @@
     </form>
     <br>
 
-<<<<<<< HEAD
     <table class="tbve">
-=======
-    <table class="tbve" border="1">
->>>>>>> d5fb5fae0772e6b37e4134929b2e3feb2f24928c
         <tr>
             <th>STT </th>
             <th>Ten Ve </th>
